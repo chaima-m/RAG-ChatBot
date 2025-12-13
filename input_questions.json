@@ -1,0 +1,21 @@
+{
+    "equipe": "TensorGirls",
+    "question": {
+        "offers_depot_vente": {
+            "1": "Pour l'offre de Bibliothèque numérique EKOTEB, quel est le partenaire d'Algérie Télécom, et que doit faire l'utilisateur s'il souhaite ajouter plus de douze livres à sa bibliothèque ?",
+            "2": "ما هي مدة الضمان (Garantie) التي تمنحها اتصالات الجزائر على المنتجات المادية (مثل أجهزة المودم أو الهواتف الذكية)؟ وماذا يجب أن يفعل العميل إذا أراد استبدال أو استرداد مبلغ الشراء لمنتج معيب؟",
+            "3":"ما هي مدة الضمان  التي تمنحها اتصالات الجزائر على المنتجات المادية (مثل أجهزة المودم أو الهواتف الذكية)؟ وماذا يجب أن يفعل العميل إذا أراد استبدال أو استرداد مبلغ الشراء لمنتج معيب؟"
+        },
+        "convention": {
+            "3": "رجى تقديم مقارنة تفصيلية للعروض التفضيلية لخدمات Idoom Internet (ADSL, VDSL, Fibre) وخدمات Idoom Fixe، مع التركيز على الأسعار التفضيلية الممنوحة للموظفين."
+        },
+        "offers": {
+            "4": "J'ai besoin de souscrire à une offre fibre pour joueurs  sans justificatif d'adresse. Pouvez-vous me donner les détails de  l'offre Gamers Locataire, incluant les prix, les vitesses et les conditions ?"    ,
+            "5" : "Je suis locataire et je n'ai pas de facture à mon nom pourprouver mon adresse. J'ai besoin d'une connexion fibre très rapide pour gaming en ligne et streamer, avec une bonne stabilité. Qu'est-ce que  vous me proposez ?"    
+        },
+        "ngbss": {
+            "6": "Comment créer un nouveau pack IDOOM Fibre? quel est le premier bouton sur lequel on clique pour choisir l'offre primaire ",
+            "7": "Comment je peux recharger un abonnement FTTH prépayé après son activation ? "
+        }
+    }
+}

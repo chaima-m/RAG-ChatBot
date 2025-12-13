@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistant Algérie Télécom</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a3d62 0%, #1e5631 100%);
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(21, 101, 192, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(46, 125, 50, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        .chat-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            color: #0a3d62;
+            padding: 20px 40px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #1565c0;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .logo-container {
+            width: 150px;
+            height: 80px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .logo-placeholder {
+            color: #1565c0;
+            font-size: 14px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .header-title h1 {
+            font-size: 26px;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #0a3d62;
+        }
+
+        .header-title p {
+            font-size: 14px;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #1565c0 0%, #1976d2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+            font-weight: 500;
+            box-shadow: 0 4px 15px rgba(21, 101, 192, 0.3);
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, #1976d2 0%, #2196f3 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(21, 101, 192, 0.4);
+        }
+
+        /* Messages Container */
+        .messages-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .messages-wrapper {
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        /* Welcome Section */
+        .welcome-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 300px);
+        }
+
+        .welcome-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 50px 60px;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            max-width: 700px;
+            width: 100%;
+        }
+
+        .welcome-icon {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #1565c0 0%, #2e7d32 100%);
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            box-shadow: 0 8px 25px rgba(21, 101, 192, 0.4);
+        }
+
+        .welcome-icon svg {
+            width: 55px;
+            height: 55px;
+            fill: white;
+        }
+
+        .welcome-card h2 {
+            color: #0a3d62;
+            margin-bottom: 15px;
+            font-size: 32px;
+            font-weight: 600;
+        }
+
+        .welcome-card p {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .welcome-question {
+            background: linear-gradient(135deg, #e3f2fd 0%, #f1f8e9 100%);
+            padding: 18px 25px;
+            margin: 12px 0;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 16px;
+            color: #0a3d62;
+            border: 2px solid transparent;
+            font-weight: 500;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .welcome-question:hover {
+            background: linear-gradient(135deg, #1565c0 0%, #2e7d32 100%);
+            color: white;
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(21, 101, 192, 0.3);
+        }
+
+        /* Messages */
+        .message {
+            display: flex;
+            margin: 25px 0;
+            animation: slideIn 0.4s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message-content {
+            max-width: 75%;
+            padding: 18px 24px;
+            border-radius: 18px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, #1565c0 0%, #1976d2 100%);
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .message.bot .message-content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            color: #333;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-bottom-left-radius: 4px;
+        }
+
+        .message.bot {
+            align-items: flex-start;
+        }
+
+        .bot-avatar {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, #2e7d32 0%, #43a047 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            margin-right: 12px;
+            flex-shrink: 0;
+            box-shadow: 0 4px 15px rgba(46, 125, 50, 0.3);
+        }
+
+        .message-text {
+            white-space: pre-wrap;
+            line-height: 1.8;
+            font-size: 15px;
+        }
+
+        /* Improved text formatting for bot responses */
+        .message-text p {
+            margin-bottom: 12px;
+        }
+
+        .message-text strong {
+            color: #0a3d62;
+            font-weight: 600;
+        }
+
+        .message-text ul, .message-text ol {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+
+        .message-text li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+
+        .message-meta {
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+            font-size: 13px;
+            color: #666;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .source-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex: 1;
+            font-weight: 500;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, #1565c0 0%, #2e7d32 100%);
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s;
+            box-shadow: 0 3px 10px rgba(21, 101, 192, 0.3);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(21, 101, 192, 0.4);
+        }
+
+        .loading {
+            display: flex;
+            gap: 8px;
+            padding: 25px;
+            justify-content: center;
+        }
+
+        .loading-dot {
+            width: 12px;
+            height: 12px;
+            background: linear-gradient(135deg, #1565c0 0%, #2e7d32 100%);
+            border-radius: 50%;
+            animation: bounce 0.6s infinite;
+        }
+
+        .loading-dot:nth-child(2) {
+            animation-delay: 0.15s;
+        }
+
+        .loading-dot:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-12px);
+            }
+        }
+
+        /* Input Container */
+        .input-container {
+            background: transparent;
+            padding: 30px 20px 60px;
+        }
+
+        .input-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 8px;
+            border-radius: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .input-box {
+            flex: 1;
+            padding: 16px 24px;
+            border: none;
+            background: transparent;
+            font-size: 15px;
+            outline: none;
+            color: #333;
+        }
+
+        .input-box::placeholder {
+            color: #999;
+        }
+
+        .send-btn {
+            background: linear-gradient(135deg, #1565c0 0%, #2e7d32 100%);
+            color: white;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(21, 101, 192, 0.3);
+        }
+
+        .send-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(21, 101, 192, 0.4);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .error-message {
+            background: rgba(255, 243, 205, 0.95);
+            backdrop-filter: blur(10px);
+            color: #856404;
+            padding: 18px 24px;
+            border-radius: 12px;
+            margin: 15px 0;
+            border: 2px solid #ffeeba;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Scrollbar */
+        .messages-container::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .messages-container::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        .messages-container::-webkit-scrollbar-thumb {
+            background: rgba(21, 101, 192, 0.5);
+            border-radius: 10px;
+        }
+
+        .messages-container::-webkit-scrollbar-thumb:hover {
+            background: rgba(21, 101, 192, 0.7);
+        }
+
+        @media (max-width: 768px) {
+            .header-title h1 {
+                font-size: 20px;
+            }
+
+            .header-title p {
+                font-size: 12px;
+            }
+
+            .logo-container {
+                width: 100px;
+                height: 50px;
+            }
+
+            .message-content {
+                max-width: 85%;
+            }
+
+            .welcome-card {
+                padding: 35px 30px;
+            }
+
+            .welcome-card h2 {
+                font-size: 26px;
+            }
+
+            .input-container {
+                padding: 20px 15px 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="header-left">
+                <div class="logo-container" id="logoContainer">
+                    <!-- Logo will be loaded dynamically -->
+                </div>
+                <div class="header-title">
+                    <h1>Assistant Algérie Télécom</h1>
+                    <p>Votre assistant intelligent pour toutes vos questions</p>
+                </div>
+            </div>
+            <button class="btn" onclick="clearChat()">Nouvelle conversation</button>
+        </div>
+
+        <!-- Messages Area -->
+        <div class="messages-container" id="messagesContainer">
+            <div class="messages-wrapper" id="messagesArea"></div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    class="input-box" 
+                    placeholder="Posez votre question..."
+                    onkeypress="handleEnter(event)"
+                />
+                <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+                    Envoyer
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://127.0.0.1:8000';
+        let sessionId = `session_${Date.now()}`;
+        let isLoading = false;
+
+        window.onload = function() {
+            console.log('Application chargée');
+            loadLogo();
+            showWelcome();
+            testAPI();
+        };
+
+        function loadLogo() {
+            const logoContainer = document.getElementById('logoContainer');
+            
+            // Try to load the logo
+            const img = new Image();
+            img.onload = function() {
+                logoContainer.innerHTML = `<img src="logo.png" alt="Algérie Télécom">`;
+            };
+            img.onerror = function() {
+                // Fallback: Show text if logo doesn't load
+                logoContainer.innerHTML = '<div class="logo-placeholder">Algérie<br>Télécom</div>';
+                console.warn('Logo image not found at logo.png');
+            };
+            img.src = 'logo.png';
+        }
+
+        async function testAPI() {
+            try {
+                const response = await fetch(`${API_URL}/`);
+                if (response.ok) {
+                    console.log('✅ API connectée');
+                }
+            } catch (error) {
+                console.error('❌ Erreur API:', error);
+                showError('Impossible de se connecter à l\'API. Vérifiez que le serveur est lancé sur http://127.0.0.1:8000');
+            }
+        }
+
+        function showWelcome() {
+            const html = `
+                <div class="welcome-section">
+                    <div class="welcome-card">
+                        <div class="welcome-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                            </svg>
+                        </div>
+                        <h2>Bienvenue chez Algérie Télécom</h2>
+                        <p>Je suis votre assistant intelligent. Posez-moi vos questions sur nos offres, services, conventions et procédures techniques.</p>
+                        <div class="welcome-question" onclick="askQuestion('Quelles sont les offres IDOOM Fibre disponibles ?')">
+                            Quelles sont les offres IDOOM Fibre disponibles ?
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.getElementById('messagesArea').innerHTML = html;
+        }
+
+        function handleEnter(event) {
+            if (event.key === 'Enter' && !isLoading) {
+                sendMessage();
+            }
+        }
+
+        function askQuestion(question) {
+            document.getElementById('userInput').value = question;
+            sendMessage();
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('userInput');
+            const question = input.value.trim();
+            
+            if (!question || isLoading) return;
+
+            // Clear welcome if it exists
+            const welcomeSection = document.querySelector('.welcome-section');
+            if (welcomeSection) {
+                document.getElementById('messagesArea').innerHTML = '';
+            }
+            
+            addUserMessage(question);
+            input.value = '';
+            isLoading = true;
+            
+            const sendBtn = document.getElementById('sendBtn');
+            sendBtn.disabled = true;
+
+            const loadingId = showLoading();
+
+            try {
+                console.log('📤 Envoi de la question:', question);
+                
+                const response = await fetch(`${API_URL}/ask`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        question: question,
+                        session_id: sessionId
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                console.log('✅ Réponse reçue:', data);
+                
+                removeLoading(loadingId);
+                addBotMessage(data.answer, data.source, data.generation_time);
+
+            } catch (error) {
+                console.error('❌ Erreur:', error);
+                removeLoading(loadingId);
+                showError(`Erreur: ${error.message}. Assurez-vous que l'API est lancée.`);
+            } finally {
+                isLoading = false;
+                sendBtn.disabled = false;
+            }
+        }
+
+        function addUserMessage(text) {
+            const div = document.createElement('div');
+            div.className = 'message user';
+            div.innerHTML = `<div class="message-content"><div class="message-text">${escapeHtml(text)}</div></div>`;
+            document.getElementById('messagesArea').appendChild(div);
+            scrollToBottom();
+        }
+
+        function formatBotMessage(text) {
+            // Format the text for better readability
+            let formatted = escapeHtml(text);
+            
+            // Convert numbered lists (1., 2., 3., etc.) to proper HTML
+            formatted = formatted.replace(/^(\d+)\.\s+(.+)$/gm, '<li><strong>$1.</strong> $2</li>');
+            
+            // Wrap consecutive list items in <ol>
+            formatted = formatted.replace(/(<li>.*<\/li>\n?)+/g, '<ol style="margin: 15px 0; padding-left: 25px;">$&</ol>');
+            
+            // Make bold text between ** **
+            formatted = formatted.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+            
+            // Convert newlines to <br> but preserve list formatting
+            formatted = formatted.replace(/\n(?!<)/g, '<br>');
+            
+            // Add paragraphs for double newlines
+            formatted = formatted.replace(/<br><br>/g, '</p><p style="margin: 10px 0;">');
+            
+            // Wrap in paragraph if it doesn't contain lists
+            if (!formatted.includes('<ol>')) {
+                formatted = '<p style="margin: 0;">' + formatted + '</p>';
+            }
+            
+            return formatted;
+        }
+
+        function addBotMessage(text, source, time) {
+            const category = determineCategory(source);
+            const formattedText = formatBotMessage(text);
+
+            const div = document.createElement('div');
+            div.className = 'message bot';
+            div.innerHTML = `
+                <div class="bot-avatar">AT</div>
+                <div class="message-content">
+                    <div class="message-text">${formattedText}</div>
+                    <div class="message-meta">
+                        <div class="source-info">
+                            <span>📄 Source: ${escapeHtml(source)}</span>
+                            <span style="margin-left: 15px;">⏱️ ${time.toFixed(2)}s</span>
+                        </div>
+                        <button class="download-btn" onclick="downloadSource('${escapeHtml(category)}', '${escapeHtml(source)}')">
+                            📥 Télécharger
+                        </button>
+                    </div>
+                </div>
+            `;
+            document.getElementById('messagesArea').appendChild(div);
+            scrollToBottom();
+        }
+
+        function determineCategory(filename) {
+            if (filename.includes('Guide NGBSS') || filename.includes('NGBSS')) {
+                return 'Guide NGBSS';
+            } else if (filename.includes('Convention') || filename.includes('établissement')) {
+                return 'Convention';
+            } else if (filename.includes('Dépôt') || filename.includes('Depot') || filename.includes('Argumentaire')) {
+                return 'Dépôt Vente';
+            } else if (filename.includes('Offre') || filename.includes('offre')) {
+                return 'Offres';
+            } else if (filename.includes('.json')) {
+                return 'data';
+            }
+            return 'Convention';
+        }
+
+        function downloadSource(category, filename) {
+            try {
+                const url = `${API_URL}/download/${encodeURIComponent(category)}/${encodeURIComponent(filename)}`;
+                console.log('📥 Téléchargement:', url);
+                window.open(url, '_blank');
+            } catch (error) {
+                console.error('❌ Erreur de téléchargement:', error);
+                alert(`Impossible de télécharger le fichier: ${error.message}`);
+            }
+        }
+
+        function showLoading() {
+            const id = `loading_${Date.now()}`;
+            const div = document.createElement('div');
+            div.id = id;
+            div.className = 'message bot';
+            div.innerHTML = `
+                <div class="bot-avatar">AT</div>
+                <div class="message-content">
+                    <div class="loading">
+                        <div class="loading-dot"></div>
+                        <div class="loading-dot"></div>
+                        <div class="loading-dot"></div>
+                    </div>
+                </div>
+            `;
+            document.getElementById('messagesArea').appendChild(div);
+            scrollToBottom();
+            return id;
+        }
+
+        function removeLoading(id) {
+            const el = document.getElementById(id);
+            if (el) el.remove();
+        }
+
+        function showError(message) {
+            const div = document.createElement('div');
+            div.className = 'error-message';
+            div.textContent = message;
+            document.getElementById('messagesArea').appendChild(div);
+            scrollToBottom();
+        }
+
+        function clearChat() {
+            sessionId = `session_${Date.now()}`;
+            showWelcome();
+            console.log('🔄 Nouvelle conversation démarrée');
+        }
+
+        function scrollToBottom() {
+            const container = document.getElementById('messagesContainer');
+            setTimeout(() => {
+                container.scrollTop = container.scrollHeight;
+            }, 100);
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>

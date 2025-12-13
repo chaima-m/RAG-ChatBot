@@ -1,0 +1,929 @@
+[
+
+    {
+  "convention_id": "AT-AC-001",
+  "nom_partenaire": "L’établissement AC",
+  "date_signature": "30/07/2025",
+  "resume_clauses": "Mise en place de mesures préférentielles pour la fourniture de prestations de télécommunication (téléphonie, internet) au profit du personnel en activité, en retraite et des ascendants du personnel de L’établissement AC. Ces mesures concernent les services Idoom ADSL, VDSL, FIBRE et Idoom Fixe. Les avantages s'appliquent pour la première souscription (nouvelles demandes) ainsi que pour les prestations déjà en service.",
+  "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+  "source": "Convention Algérie Télécom & L’établissement AC",
+  "offres": [
+    {
+      "intitule": "Idoom FIBRE - Personnel Actif/Retraité (60 Mbps à 1.5 Gbps) - Remise 50%",
+      "id_convention_associee": "AT-AC-001"
+    },
+    {
+      "intitule": "Idoom ADSL/VDSL - Personnel Actif/Retraité (20 Mbps à 100 Mbps) - Remise 50%",
+      "id_convention_associee": "AT-AC-001"
+    },
+    {
+      "intitule": "Idoom FIBRE - Ascendants (60 Mbps à 1.5 Gbps) - Remise 25%",
+      "id_convention_associee": "AT-AC-001"
+    },
+    {
+      "intitule": "Idoom ADSL/VDSL - Ascendants (20 Mbps à 100 Mbps) - Remise 25%",
+      "id_convention_associee": "AT-AC-001"
+    },
+    {
+      "intitule": "Idoom Fixe (Offre 1) - 20% de réduction sur forfait 250 DA/Mois",
+      "id_convention_associee": "AT-AC-001"
+    },
+    {
+      "intitule": "Idoom Fixe (Offre 2) - 30% de réduction sur forfait 500 DA/Mois",
+      "id_convention_associee": "AT-AC-001"
+    },
+    {
+      "intitule": "Idoom Fixe (Offre 3) - 40% de réduction sur forfait 1000 DA/Mois",
+      "id_convention_associee": "AT-AC-001"
+    }
+  ]
+},
+
+{
+  "convention_id": "AT-AB-002",
+  "nom_partenaire": "L’établissement AB",
+  "date_signature": "14/09/2023",
+  "resume_clauses": "Mise en place de mesures préférentielles pour les prestations de Télécommunications (Téléphonie et Internet) au profit de tous les employés en activité de L’établissement AB. Les offres concernées sont Idoom ADSL, VDSL, FTTH (Fibre) et Idoom Fixe.",
+  "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+  "source": "Convention Algérie Télécom & L’établissement AB",
+  "offres": [
+    {
+      "intitule": "Idoom Internet (ADSL/VDSL/Fibre) - 20 Mbps à 300 Mbps (Tarif de 2099 DA à 2799 DA)",
+      "id_convention_associee": "AT-AB-002"
+    },
+    {
+      "intitule": "Idoom Fixe - Forfait 250 DA/mois (Nouveau tarif 225 Da/Mois) - Remise 10%",
+      "id_convention_associee": "AT-AB-002"
+    },
+    {
+      "intitule": "Idoom Fixe - Forfait 500 DA/mois (Nouveau tarif 350 Da/Mois) - Remise 30%",
+      "id_convention_associee": "AT-AB-002"
+    },
+    {
+      "intitule": "Idoom Fixe - Forfait 750 DA/mois (Nouveau tarif 375 Da/Mois) - Remise 50%",
+      "id_convention_associee": "AT-AB-002"
+    }
+  ]
+},
+
+{
+  "convention_id": "AT-AD-003",
+  "nom_partenaire": "L’établissement AD",
+  "date_signature": "20/08/2024",
+  "resume_clauses": "Révision de la convention pour introduire de nouvelles mesures préférentielles sur les services de télécommunication (téléphonie, Idoom ADSL, VDSL et Idoom fibre) au profit du personnel actif des Services de L’établissement AD. Les débits Internet concernés vont de 20 Mbps à 1 Gbps.",
+  "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+  "source": "Convention Algérie Télécom & L’établissement AD",
+  "offres": [
+    {
+      "intitule": "Idoom Internet (ADSL/VDSL/Fibre) - 20 Mbps à 1 Gbps (Tarif Préférentiel de 1100 DA à 2100 DA) - Remise 50%",
+      "id_convention_associee": "AT-AD-003"
+    },
+    {
+      "intitule": "Idoom Fixe - Forfait 250 DA/Mois - Remise 20% (Nouveau tarif 200 DA/Mois)",
+      "id_convention_associee": "AT-AD-003"
+    },
+    {
+      "intitule": "Idoom Fixe - Forfait 500 DA/Mois - Remise 30% (Nouveau tarif 350 DA/Mois)",
+      "id_convention_associee": "AT-AD-003"
+    },
+    {
+      "intitule": "Idoom Fixe - Forfait 750 DA/Mois - Remise 40% (Nouveau tarif 450 DA/Mois)",
+      "id_convention_associee": "AT-AD-003"
+    }
+  ]
+},
+
+{
+  "convention_id": "AT-A-004",
+  "nom_partenaire": "L’établissement A",
+  "date_signature": "29/07/2025",
+  "resume_clauses": "Mise en place de mesures préférentielles pour les prestations de télécommunication (téléphonie et Internet XDSL & FIBRE) au profit des personnels en activité et en retraite de L’établissement A. Les débits Internet varient de 15 Mbits jusqu’à 1.2 Gbps. La demande manuscrite n’est plus requise pour toute nouvelle souscription dans le cadre de la digitalisation.",
+  "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+  "source": "Convention  AT & L’établissement A",
+  "offres": [
+    {
+      "intitule": "Idoom FIBRE (60 Mbps à 240 Mbps) - Remise 50%",
+      "id_convention_associee": "AT-A-004"
+    },
+    {
+      "intitule": "Idoom FIBRE (480 Mbps à 1.5 Gbps) - Remise 60%",
+      "id_convention_associee": "AT-A-004"
+    },
+    {
+      "intitule": "Idoom ADSL/VDSL (15 Mbps à 100 Mbps) - Remise 50%",
+      "id_convention_associee": "AT-A-004"
+    },
+    {
+      "intitule": "Idoom Fixe - Forfait 250 Da/Mois (Nouveau tarif 200 Da/Mois)",
+      "id_convention_associee": "AT-A-004"
+    },
+    {
+      "intitule": "Idoom Fixe - Forfait 500 Da/Mois (Nouveau tarif 350 Da/Mois)",
+      "id_convention_associee": "AT-A-004"
+    },
+    {
+      "intitule": "Idoom Fixe - Forfait 750 Da/Mois (Nouveau tarif 450 Da/Mois)",
+      "id_convention_associee": "AT-A-004"
+    }
+  ]
+},
+
+{
+    "convention_id": "AT-X-005",
+    "nom_partenaire": "L’établissement X",
+    "date_signature": "28/08/2024",
+    "resume_clauses": "Mise en place de mesures préférentielles sur les prestations de Télécommunications (Téléphonie et Internet) pour tous les employés en activité de L'établissement X. Concerne les offres Idoom ADSL, VDSL, Fibre et Idoom Fixe. Les remises Internet varient de 3.6% à 16.7% selon le palier. Remises de 10% à 30% sur les forfaits Idoom Fixe.",
+    "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+    "source": "Convention Algérie Télécom & L’établissement X",
+    "offres": [
+      {
+        "intitule": "Idoom Internet (ADSL & Fibre) - 20 Mbps (Tarif préférentiel : 2 080 DA/Mois)",
+        "id_convention_associee": "AT-X-005"
+      },
+      {
+        "intitule": "Idoom Internet (VDSL & Fibre) - 50 Mbps (Tarif préférentiel : 2 240 DA/Mois)",
+        "id_convention_associee": "AT-X-005"
+      },
+      {
+        "intitule": "Idoom Internet (VDSL & Fibre) - 100 Mbps (Tarif préférentiel : 2 400 DA/Mois)",
+        "id_convention_associee": "AT-X-005"
+      },
+      {
+        "intitule": "Idoom Fibre - 200 Mbps (Tarif préférentiel : 2 700 DA/Mois)",
+        "id_convention_associee": "AT-X-005"
+      },
+      {
+        "intitule": "Idoom Fibre - 1 G (Tarif préférentiel : 3 600 DA/Mois)",
+        "id_convention_associee": "AT-X-005"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 250 Da/Mois - Remise 10% (Nouveau tarif 225 Da/Mois)",
+        "id_convention_associee": "AT-X-005"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 500 Da/Mois - Remise 20% (Nouveau tarif 400 Da/Mois)",
+        "id_convention_associee": "AT-X-005"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 750 Da/Mois - Remise 30% (Nouveau tarif 525 Da/Mois)",
+        "id_convention_associee": "AT-X-005"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-Z-006",
+    "nom_partenaire": "L’établissement Z et leurs filiales",
+    "date_signature": "18/06/2023",
+    "resume_clauses": "Mise en place de mesures préférentielles pour les prestations de télécommunication (téléphonie et Internet) au profit du personnel en activité et en retraite de L’établissement Z et de leurs filiales. Concerne les offres Idoom (ADSL, VDSL, FIBRE) et Idoom Fixe. Les remises Internet varient de 10% à 50% selon le palier (vitesse non spécifiée).",
+    "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+    "source": "Convention Algérie Télécom & L’établissement Z",
+    "offres": [
+      {
+        "intitule": "Idoom Internet Palier 1 (ADSL, VDSL & FIBRE) - Remise 10% (Nouveau tarif 1 799 Da/Mois)",
+        "id_convention_associee": "AT-Z-006"
+      },
+      {
+        "intitule": "Idoom Internet Palier 2 (ADSL, VDSL & FIBRE) - Remise 15% (Nouveau tarif 2 209 Da/Mois)",
+        "id_convention_associee": "AT-Z-006"
+      },
+      {
+        "intitule": "Idoom Fibre Palier 3 - Remise 30% (Nouveau tarif 2 519 Da/Mois)",
+        "id_convention_associee": "AT-Z-006"
+      },
+      {
+        "intitule": "Idoom Fibre Palier 4 - Remise 50% (Nouveau tarif 3 500 Da/Mois)",
+        "id_convention_associee": "AT-Z-006"
+      },
+      {
+        "intitule": "Idoom fixe Aloo 250 Da/Mois - Remise 10% (Nouveau tarif 225 Da/Mois)",
+        "id_convention_associee": "AT-Z-006"
+      },
+      {
+        "intitule": "Idoom fixe Khood 500 Da/Mois - Remise 20% (Nouveau tarif 400 Da/Mois)",
+        "id_convention_associee": "AT-Z-006"
+      },
+      {
+        "intitule": "Idoom fixe Gool 750 Da/Mois - Remise 30% (Nouveau tarif 525 Da/Mois)",
+        "id_convention_associee": "AT-Z-006"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-H-007",
+    "nom_partenaire": "L’Établissement H",
+    "date_signature": "31/07/2025",
+    "resume_clauses": "Mise en place de mesures préférentielles pour les prestations de télécommunications (Téléphonie et Internet) au profit des employés en activité de L’Établissement H. Concerne IDOOM INTERNET (ADSL, VDSL, FIBRE) et IDOOM Fixe. Tous les employés déjà abonnés seront automatiquement basculés vers les nouvelles offres. Les remises Internet sont de 50% pour tous les paliers (de 20 Mbps à 1.2 Gbps).",
+    "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+    "source": "Convention AT - & L’établissement H",
+    "offres": [
+      {
+        "intitule": "Idoom Internet (ADSL, VDSL, FIBRE) - 20 Mbps à 1.2 Gbps (Remise 50%, Nouveau tarif de 1 075 DA à 2 100 DA)",
+        "id_convention_associee": "AT-H-007"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 250 DA/Mois (Nouveau tarif 225 Da/Mois) - Remise 10%",
+        "id_convention_associee": "AT-H-007"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 500 DA/Mois (Nouveau tarif 400 Da/Mois) - Remise 20%",
+        "id_convention_associee": "AT-H-007"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 750 DA/Mois (Nouveau tarif 525 Da/Mois) - Remise 30%",
+        "id_convention_associee": "AT-H-007"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-Y-008",
+    "nom_partenaire": "L’établissement Y",
+    "date_signature": "18/06/2023",
+    "resume_clauses": "Reconduction de la convention portant sur les mesures préférentielles destinées aux employés, retraités et leurs ayants droit (père, mère, conjoint et enfants), avec une limite de cinq souscriptions pour les ayants droit. Concerne l'offre Idoom (ADSL & FIBRE) et Idoom Fixe. Remises Internet de 20% à 25% et remises Idoom Fixe de 10% à 30%.",
+    "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+    "source": "Convention Algérie Télécom & L’établissement Y",
+    "offres": [
+      {
+        "intitule": "Idoom Internet (ADSL & FIBRE) - 20 Mbps à 100 Mbps (Remise 20%, Nouveau tarif de 2 079 Da à 2 399 Da)",
+        "id_convention_associee": "AT-Y-008"
+      },
+      {
+        "intitule": "Idoom Fibre - 200 Mbps à 300 Mbps (Remise 25%, Nouveau tarif de 2 699 Da à 2 999 Da)",
+        "id_convention_associee": "AT-Y-008"
+      },
+      {
+        "intitule": "Idoom fixe Aloo 250 Da/Mois - Remise 10% (Nouveau tarif 225 Da/Mois)",
+        "id_convention_associee": "AT-Y-008"
+      },
+      {
+        "intitule": "Idoom fixe Khood 500 Da/Mois - Remise 20% (Nouveau tarif 400 Da/Mois)",
+        "id_convention_associee": "AT-Y-008"
+      },
+      {
+        "intitule": "Idoom fixe Gool 750 Da/Mois - Remise 30% (Nouveau tarif 525 Da/Mois)",
+        "id_convention_associee": "AT-Y-008"
+      }
+    ]
+  },
+
+  {
+    "convention_id": "AT-R-009",
+    "nom_partenaire": "L’établissement R",
+    "date_signature": "04/07/2025",
+    "resume_clauses": "Mise en place de mesures préférentielles pour la fourniture des services de télécommunication (téléphonie et internet) au profit Des établissements R (démunies et non démunies). Offres Idoom internet (ADSL, VDSL, Fibre) et Idoom Fixe. Possibilité de bénéficier du réseau Idoom 4G LTE pour les zones non desservies (paiement annuel).",
+    "portee_secteur": "Télécommunications (Internet, Téléphonie Fixe et 4G LTE)",
+    "source": "Convention AT &  L’établissement R",
+    "offres": [
+      {
+        "intitule": "Idoom Internet (ADSL 20 Mbps, VDSL 50 Mbps, FIBRE 300 Mbps) pour Établissements R démunies - Internet GRATUIT",
+        "id_convention_associee": "AT-R-009"
+      },
+      {
+        "intitule": "Idoom Internet ADSL 20 Mbps pour Établissements R restantes (3 100 DZD/Mois)",
+        "id_convention_associee": "AT-R-009"
+      },
+      {
+        "intitule": "Idoom Internet VDSL 50 Mbps pour Établissements R restantes (3 600 DZD/Mois)",
+        "id_convention_associee": "AT-R-009"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 300 Mbps pour Établissements R restantes (4 000 DZD/Mois)",
+        "id_convention_associee": "AT-R-009"
+      },
+      {
+        "intitule": "Idoom Fixe - Appels illimités local/national + 1 000 DZD vers mobile (450 DZD / Mois)",
+        "id_convention_associee": "AT-R-009"
+      },
+      {
+        "intitule": "Offre Idoom 4G LTE - Pour zones non desservies (Paiement annuel)",
+        "id_convention_associee": "AT-R-009"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-P-010",
+    "nom_partenaire": "L’établissement P",
+    "date_signature": "20/11/2025",
+    "resume_clauses": "Mise en place de tarifs préférentiels Idoom Internet (ADSL, VDSL, Fibre) pour le personnel et les retraités de L’établissement P. Offre 01 accès GRATUIT pour les cadres supérieurs (jusqu'à 1.5 Gbps). Offres à tarif très réduit pour le personnel et retraités (20 Mbps à 800 DA, 1.5 Gbps à 1 100 DA). Achat d'ONT Wi-Fi 6 à tarif préférentiel.",
+    "portee_secteur": "Télécommunications (Internet et Équipement)",
+    "source": "Convention AT &  L’établissement P",
+    "offres": [
+      {
+        "intitule": "01 accès Internet GRATUIT pour Cadres Supérieurs (20 Mbps ADSL, 100 Mbps VDSL ou 1.5 Gbps FTTH)",
+        "id_convention_associee": "AT-P-010"
+      },
+      {
+        "intitule": "Idoom Internet 20 Mbps ADSL ou 100 Mbps VDSL - Personnel/Retraités (800 DA/Mois)",
+        "id_convention_associee": "AT-P-010"
+      },
+      {
+        "intitule": "Idoom Internet 1.5 Gbps FTTH - Personnel/Retraités (1 100 DA/Mois)",
+        "id_convention_associee": "AT-P-010"
+      },
+      {
+        "intitule": "Achat d'ONT Wi-Fi 6 à tarif préférentiel (2 000 DA pour Cadres Supérieurs, 3 500 DA pour le personnel)",
+        "id_convention_associee": "AT-P-010"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-T-011",
+    "nom_partenaire": "L’établissement T",
+    "date_signature": "29/07/2025",
+    "resume_clauses": "Mise en place de mesures préférentielles Idoom Internet (ADSL, VDSL, Fibre) et Idoom Fixe au profit du personnel en activité. Offres Internet Fibre avec remises allant jusqu'à 60% (20 Mbits à 1.2 Gbps). Offres Idoom Fixe avec des remises de 15% à 25% et bonus (appels illimités local/national, bonus vers mobile, numéros favoris).",
+    "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+    "source": "Convention AT &  L’établissement T",
+    "offres": [
+      {
+        "intitule": "Idoom Internet FIBRE - 30 Mbps à 1.2 Gbps (Remise jusqu'à 60%, Tarifs de 1 100 Da à 1 680 Da/Mois)",
+        "id_convention_associee": "AT-T-011"
+      },
+      {
+        "intitule": "Idoom Internet ADSL/VDSL - 20 Mbps à 100 Mbps (Remise 50%, Tarifs de 1 000 Da à 1 300 Da/Mois)",
+        "id_convention_associee": "AT-T-011"
+      },
+      {
+        "intitule": "Idoom Fixe Offre 1 (250 DA/Mois) - Remise 15% (212 DA/Mois)",
+        "id_convention_associee": "AT-T-011"
+      },
+      {
+        "intitule": "Idoom Fixe Offre 2 (500 DA/Mois) - Remise 20% (400 DA/Mois)",
+        "id_convention_associee": "AT-T-011"
+      },
+      {
+        "intitule": "Idoom Fixe Offre 3 (750 DA/Mois) - Remise 25% (562 DA/Mois) + Remise 30% vers 50 destinations internationales",
+        "id_convention_associee": "AT-T-011"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-V-012",
+    "nom_partenaire": "L’établissement V",
+    "date_signature": "18/11/2024",
+    "resume_clauses": "Mise en place de mesures préférentielles Idoom Internet (ADSL, VDSL, Fibre) et Idoom Fixe au profit du personnel en activité. Remise de 50% sur les offres Internet (20 Mbps à 1.2 Gbps). Offres Idoom Fixe avec remises de 10% à 30%.",
+    "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+    "source": "Convention AT &  L’établissement V",
+    "offres": [
+      {
+        "intitule": "Idoom Internet (ADSL, VDSL & Fibre) - 20 Mbps à 1.2 Gbps (Remise 50%, Tarifs de 1 075 Da à 2 100 Da/Mois)",
+        "id_convention_associee": "AT-V-012"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 250 DA/Mois - Remise 10% (Nouveau tarif 225 Da/Mois)",
+        "id_convention_associee": "AT-V-012"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 500 DA/Mois - Remise 20% (Nouveau tarif 400 Da/Mois)",
+        "id_convention_associee": "AT-V-012"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 750 DA/Mois - Remise 30% (Nouveau tarif 525 Da/Mois)",
+        "id_convention_associee": "AT-V-012"
+      }
+    ]
+  },
+
+  {
+    "convention_id": "AT-B-013",
+    "nom_partenaire": "L’établissement B",
+    "date_signature": "29/07/2025",
+    "resume_clauses": "Mise à jour des tarifs préférentiels pour le personnel actif, retraité, invalide et veuve de L’établissement B. Concerne Idoom Internet (ADSL, VDSL, Fibre) pour un premier accès, et Idoom Internet + Idoom Fixe + Produits Dépôt-Vente pour un deuxième accès (uniquement pour le personnel actif). Le personnel actif peut obtenir un deuxième accès à tarifs avantageux (Fibre 1.5 Gbps à 1 500 DA/Mois).",
+    "portee_secteur": "Télécommunications (Internet, Téléphonie Fixe, Équipement) et Formation/Éducation",
+    "source": "Convention AT &  L’établissement B",
+    "offres": [
+      {
+        "intitule": "Premier accès Idoom Internet ADSL/VDSL/Fibre - 15 Mbps à 1.5 Gbps (Tarifs de 2 200 DA à 3 200 DA/Mois)",
+        "id_convention_associee": "AT-B-013"
+      },
+      {
+        "intitule": "Deuxième accès Idoom Internet (Personnel Actif) - 20 Mbps à 1.5 Gbps (Tarifs de 2 000 DA à 1 500 DA/Mois)",
+        "id_convention_associee": "AT-B-013"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfaits 250 DA/Mois à 750 DA/Mois (Remises 10% à 30%)",
+        "id_convention_associee": "AT-B-013"
+      },
+      {
+        "intitule": "Produits Dépôt-Vente (Modems/Routeurs) - Tarifs préférentiels (jusqu'à 15% de réduction)",
+        "id_convention_associee": "AT-B-013"
+      },
+      {
+        "intitule": "Abonnements Plateformes Éducatives (DorouScom, INKIDIA) - Remise de 10%",
+        "id_convention_associee": "AT-B-013"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-C-014",
+    "nom_partenaire": "L’établissement C",
+    "date_signature": "02/09/2025",
+    "resume_clauses": "Mise à jour des mesures préférentielles pour la fourniture de l’Internet (ADSL, VDSL & Fibre) au profit du personnel Actif, civils, et retraités de L’établissement C. Remises importantes sur la Fibre (50% à 60% pour les hauts débits). Les avantages ADSL/VDSL restent inchangés. La présentation de la carte professionnelle est interdite.",
+    "portee_secteur": "Télécommunications (Internet)",
+    "source": "Convention AT -& L’établissement C",
+    "offres": [
+      {
+        "intitule": "Idoom Internet FIBRE - 60 Mbps à 480 Mbps (Remise 50%, Tarifs de 1 100 DA à 1 400 DA/Mois)",
+        "id_convention_associee": "AT-C-014"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE - 1 Gbps (Remise 55.56%, Nouveau tarif 1 600 DA/Mois)",
+        "id_convention_associee": "AT-C-014"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE - 1.5 Gbps (Remise 60%, Nouveau tarif 1 680 DA/Mois)",
+        "id_convention_associee": "AT-C-014"
+      },
+      {
+        "intitule": "Idoom Internet ADSL/VDSL - 15 Mbps à 100 Mbps (Avantages inchangés)",
+        "id_convention_associee": "AT-C-014"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-D-015",
+    "nom_partenaire": "L’établissement D",
+    "date_signature": "16/10/2024",
+    "resume_clauses": "Mise à jour de la convention pour accorder aux employés du personnel actif de l’Établissement D des avantages préférentiels sur les services de télécommunications (téléphonie et internet). Les offres Idoom Internet (ADSL, VDSL, Fibre) et Idoom Fixe sont concernées. Remises Internet allant de 5.4% à 14.3% sur les offres les plus rapides. Annule et remplace les mesures préférentielles existantes.",
+    "portee_secteur": "Télécommunications (Internet et Téléphonie Fixe)",
+    "source": "Convention AT- & L’établissement D",
+    "offres": [
+      {
+        "intitule": "Idoom Internet xDSL/Fibre - 20 Mbps à 1 Gbps (Tarifs de 2 080 DA à 3 600 DA/Mois)",
+        "id_convention_associee": "AT-D-015"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 250 DA/Mois - Remise 10% (Nouveau tarif 225 DA/Mois)",
+        "id_convention_associee": "AT-D-015"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 500 DA/Mois - Remise 20% (Nouveau tarif 400 DA/Mois)",
+        "id_convention_associee": "AT-D-015"
+      },
+      {
+        "intitule": "Idoom Fixe - Forfait 750 DA/Mois - Remise 30% (Nouveau tarif 525 DA/Mois)",
+        "id_convention_associee": "AT-D-015"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-E-016",
+    "nom_partenaire": "L’Établissement E",
+    "date_signature": "13/03/2024",
+    "resume_clauses": "Mise en place de mesures préférentielles pour la fourniture de services Internet (Idoom ADSL, VDSL, Fibre) au profit du personnel en activité de L’Établissement E. Les remises Internet varient de 17.3% à 22.8% selon le palier. Forte incitation à faire migrer les clients vers des offres 20 Mbps et plus pour bénéficier des avantages.",
+    "portee_secteur": "Télécommunications (Internet)",
+    "source": "Convention AT -& L’établissement E",
+    "offres": [
+      {
+        "intitule": "Idoom Internet xDSL/Fibre - 20 Mbps (Remise 22.8%, Nouveau tarif 2 000 DA/Mois)",
+        "id_convention_associee": "AT-E-016"
+      },
+      {
+        "intitule": "Idoom Internet xDSL/Fibre - 50 Mbps (Remise 21.4%, Nouveau tarif 2 200 DA/Mois)",
+        "id_convention_associee": "AT-E-016"
+      },
+      {
+        "intitule": "Idoom Internet Fibre - 100 Mbps (Remise 20%, Nouveau tarif 2 400 DA/Mois)",
+        "id_convention_associee": "AT-E-016"
+      },
+      {
+        "intitule": "Idoom Internet Fibre - 200 Mbps (Remise 19.5%, Nouveau tarif 2 899 DA/Mois)",
+        "id_convention_associee": "AT-E-016"
+      },
+      {
+        "intitule": "Idoom Internet Fibre - 300 Mbps (Remise 17.3%, Nouveau tarif 3 300 DA/Mois)",
+        "id_convention_associee": "AT-E-016"
+      }
+    ]
+  },
+
+  {
+    "convention_id": "AT-F-017",
+    "nom_partenaire": "L’Établissement F",
+    "date_signature": "23/04/2025",
+    "resume_clauses": "Mise à jour des tarifs préférentiels pour le personnel (actif et retraité) sur les services de télécommunication. Concerne Idoom Internet (ADSL, VDSL, Fibre) et Idoom Fixe. Remises importantes sur la Fibre (50% à 55% selon palier, jusqu'à 1.2 Gbps). Remises Idoom Fixe de 10% à 30%.",
+    "portee_secteur": "Télécommunications (Internet, Téléphonie Fixe)",
+    "source": "Convention AT- & L’établissement F",
+    "offres": [
+      {
+        "intitule": "Idoom Internet ADSL 20 Mbps (1 300 DA/Mois)",
+        "id_convention_associee": "AT-F-017"
+      },
+      {
+        "intitule": "Idoom Internet VDSL 50 Mbps (1 400 DA/Mois)",
+        "id_convention_associee": "AT-F-017"
+      },
+      {
+        "intitule": "Idoom Internet VDSL 100 Mbps (1 500 DA/Mois)",
+        "id_convention_associee": "AT-F-017"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 120 Mbps (1 300 DA/Mois)",
+        "id_convention_associee": "AT-F-017"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 1.2 Gbps (1 890 DA/Mois)",
+        "id_convention_associee": "AT-F-017"
+      },
+      {
+        "intitule": "Idoom Fixe Forfait 250 Da/Mois (Remise 10% - 225 Da/Mois)",
+        "id_convention_associee": "AT-F-017"
+      },
+      {
+        "intitule": "Idoom Fixe Forfait 750 Da/Mois (Remise 30% - 525 Da/Mois)",
+        "id_convention_associee": "AT-F-017"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-G-018",
+    "nom_partenaire": "L’établissement G",
+    "date_signature": "15/10/2025",
+    "resume_clauses": "Nouvelle convention pour le personnel adhérant ou membre. Offres préférentielles sur Idoom Fibre (à partir de 240 Mbps) et Idoom Fixe. Remises Fibre importantes (jusqu'à 33.33% pour le 1.5 Gbps).",
+    "portee_secteur": "Télécommunications (Internet Fibre, Téléphonie Fixe)",
+    "source": "Convention AT -& L’établissement G",
+    "offres": [
+      {
+        "intitule": "Idoom Internet FIBRE 240 Mbps (2 000 Da/Mois)",
+        "id_convention_associee": "AT-G-018"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 1 Gbps (2 600 Da/Mois)",
+        "id_convention_associee": "AT-G-018"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 1.5 Gbps (2 800 Da/Mois)",
+        "id_convention_associee": "AT-G-018"
+      },
+      {
+        "intitule": "Idoom Fixe Forfait 250 Da/Mois (225 Da/Mois)",
+        "id_convention_associee": "AT-G-018"
+      },
+      {
+        "intitule": "Idoom Fixe Forfait 750 Da/Mois (525 Da/Mois)",
+        "id_convention_associee": "AT-G-018"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-I-019",
+    "nom_partenaire": "L’Établissement I",
+    "date_signature": "07/09/2025",
+    "resume_clauses": "Nouvelle convention avec tarifs très préférentiels sur l’Internet (ADSL, VDSL, Fibre) pour le personnel en activité. Tarifs extrêmement réduits pour les débits ciblés : 800 DA/Mois pour 20 Mbps (ADSL) et 100 Mbps (VDSL), et 1 100 DA/Mois pour 1.5 Gbps (FTTH).",
+    "portee_secteur": "Télécommunications (Internet)",
+    "source": "Convention AT- & L’établissement I",
+    "offres": [
+      {
+        "intitule": "Idoom Internet ADSL 20 Mbps (800 Da/Mois)",
+        "id_convention_associee": "AT-I-019"
+      },
+      {
+        "intitule": "Idoom Internet VDSL 100 Mbps (800 Da/Mois)",
+        "id_convention_associee": "AT-I-019"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 1.5 Gbps (1 100 Da/Mois)",
+        "id_convention_associee": "AT-I-019"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-J-020",
+    "nom_partenaire": "L’établissement J",
+    "date_signature": "20/07/2025",
+    "resume_clauses": "Mise à jour des tarifs préférentiels pour l’Internet (ADSL, VDSL & Fibre) au profit du personnel en activité. Aucune offre Idoom Fixe mentionnée. Remises sur la Fibre allant de 26% (60 Mbps) à 48.7% (1 Gbps) avec un tarif max de 2 300 DA/Mois.",
+    "portee_secteur": "Télécommunications (Internet)",
+    "source": "Convention AT -& L’établissement J",
+    "offres": [
+      {
+        "intitule": "Idoom Internet ADSL 20 Mbps (2 000 DA/Mois)",
+        "id_convention_associee": "AT-J-020"
+      },
+      {
+        "intitule": "Idoom Internet VDSL 50 Mbps (2 100 DA/Mois)",
+        "id_convention_associee": "AT-J-020"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 60 Mbps (1 920 DA/Mois)",
+        "id_convention_associee": "AT-J-020"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 300 Mbps (2 100 DA/Mois)",
+        "id_convention_associee": "AT-J-020"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 1 Gbps (2 300 DA/Mois)",
+        "id_convention_associee": "AT-J-020"
+      }
+    ]
+  },
+  
+  {
+    "convention_id": "AT-K-021",
+    "nom_partenaire": "L’établissement k",
+    "date_signature": "13/04/2025",
+    "resume_clauses": "Nouvelle convention avec mesures préférentielles en faveur du personnel en activité. Avantages sur IDOOM ADSL, VDSL, Fibre (jusqu'à 1.2 Gbps) et l'offre IDOOM Fixe. Remises très importantes (jusqu'à 50%) sur les offres Internet pour le personnel en activité.",
+    "portee_secteur": "Télécommunications (Internet, Téléphonie Fixe)",
+    "source": "Convention AT & L’établissement k",
+    "offres": [
+      {
+        "intitule": "Idoom Internet ADSL 20 Mbps (1 075 DA/Mois)",
+        "id_convention_associee": "AT-K-021"
+      },
+      {
+        "intitule": "Idoom Internet VDSL 50 Mbps (1 175 DA/Mois)",
+        "id_convention_associee": "AT-K-021"
+      },
+      {
+        "intitule": "Idoom Internet VDSL 100 Mbps (1 275 DA/Mois)",
+        "id_convention_associee": "AT-K-021"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 120 Mbps (1 300 DA/Mois)",
+        "id_convention_associee": "AT-K-021"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 1.2 Gbps (2 100 DA/Mois)",
+        "id_convention_associee": "AT-K-021"
+      },
+      {
+        "intitule": "Idoom Fixe Forfait 250 Da/Mois (Remise 10% - 225 Da/Mois)",
+        "id_convention_associee": "AT-K-021"
+      },
+      {
+        "intitule": "Idoom Fixe Forfait 750 Da/Mois (Remise 30% - 525 Da/Mois)",
+        "id_convention_associee": "AT-K-021"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-M-022",
+    "nom_partenaire": "L’établissement M",
+    "date_signature": "05/12/2023",
+    "resume_clauses": "Convention établie pour le personnel en activité et en retraite. Offres IDOOM ADSL, VDSL, FTTH et IDOOM Fixe. Tarifs internet avec des paliers spécifiques : Personnel Actif (jusqu'à 60% de remise) et Personnel Retraité (jusqu'à 30% de remise).",
+    "portee_secteur": "Télécommunications (Internet, Téléphonie Fixe)",
+    "source": "Convention AT & L’établissement M",
+    "offres": [
+      {
+        "intitule": "Personnel Actif : Idoom Internet Palier 1 (xDSL & Fibre) - 1 299 Da/Mois",
+        "id_convention_associee": "AT-M-022"
+      },
+      {
+        "intitule": "Personnel Actif : Idoom Internet Palier 5 (Fibre) - 1 599 Da/Mois",
+        "id_convention_associee": "AT-M-022"
+      },
+      {
+        "intitule": "Personnel Retraité : Idoom Internet Palier 1 (xDSL & Fibre) - 1 799 Da/Mois",
+        "id_convention_associee": "AT-M-022"
+      },
+      {
+        "intitule": "Personnel Retraité : Idoom Internet Palier 6 (Fibre) - 2 799 Da/Mois",
+        "id_convention_associee": "AT-M-022"
+      },
+      {
+        "intitule": "Idoom Fixe Forfait 250 Da/Mois (Remise 10% - 225 Da/Mois)",
+        "id_convention_associee": "AT-M-022"
+      },
+      {
+        "intitule": "Idoom Fixe Forfait 750 Da/Mois (Remise 30% - 525 Da/Mois)",
+        "id_convention_associee": "AT-M-022"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-N-023",
+    "nom_partenaire": "L’établissement N",
+    "date_signature": "11/03/2025",
+    "resume_clauses": "Convention visant le personnel en activité. Remise uniforme de 40% sur tous les paliers IDOOM Internet (ADSL et Fibre jusqu'à 1 Gbps). Tarifs IDOOM Fixe (Offre 3) avec une réduction de 40%.",
+    "portee_secteur": "Télécommunications (Internet, Téléphonie Fixe)",
+    "source": "Convention AT & L’établissement N",
+    "offres": [
+      {
+        "intitule": "Idoom Internet 20 Mbps (xDSL & Fibre) - 1 320 Da/Mois (Remise 40%)",
+        "id_convention_associee": "AT-N-023"
+      },
+      {
+        "intitule": "Idoom Internet Fibre 1 Gbps - 2 520 Da/Mois (Remise 40%)",
+        "id_convention_associee": "AT-N-023"
+      },
+      {
+        "intitule": "Idoom Fixe Offre 1 (250 DA/mois) - 200 DA/mois (Réduction 20%)",
+        "id_convention_associee": "AT-N-023"
+      },
+      {
+        "intitule": "Idoom Fixe Offre 3 (1000 DA/mois) - 600 DA/mois (Réduction 40%)",
+        "id_convention_associee": "AT-N-023"
+      }
+    ]
+  },
+  {
+    "convention_id": "AT-O-024",
+    "nom_partenaire": "L’établissement O",
+    "date_signature": "28/07/2025",
+    "resume_clauses": "Nouvelle convention avec mesures préférentielles pour le personnel en activité. Avantages sur IDOOM ADSL, VDSL, Fibre et IDOOM Fixe. Remises sur les offres Internet (ex: 20 Mbps ADSL à 1 600 DA/Mois) et sur les forfaits Idoom Fixe (jusqu'à 30% de réduction).",
+    "portee_secteur": "Télécommunications (Internet, Téléphonie Fixe)",
+    "source": "Convention AT & L’établissement O",
+    "offres": [
+      {
+        "intitule": "Idoom Internet ADSL 20 Mbps (1 600 DA/Mois)",
+        "id_convention_associee": "AT-O-024"
+      },
+      {
+        "intitule": "Idoom Internet VDSL 100 Mbps (2 000 DA/Mois)",
+        "id_convention_associee": "AT-O-024"
+      },
+      {
+        "intitule": "Idoom Internet FIBRE 1.2 Gbps (3 600 DA/Mois)",
+        "id_convention_associee": "AT-O-024"
+      },
+      {
+        "intitule": "Idoom Fixe Forfait 250 Da/Mois (Remise 10% - 225 Da/Mois)",
+        "id_convention_associee": "AT-O-024"
+      },
+      {
+        "intitule": "Idoom Fixe Forfait 750 Da/Mois (Remise 30% - 525 Da/Mois)",
+        "id_convention_associee": "AT-O-024"
+      }
+    ]
+  },
+
+{
+  "convention_id": "AT-W-XXX",
+  "nom_partenaire": "L’établissement W",
+  "date_signature": "29/07/2025",
+  "resume_clauses": "Convention établie pour la mise en place de mesures préférentielles pour la fourniture de prestations de télécommunications (Téléphone fixe et Internet) au profit du personnel en activité de L’établissement W. Les offres concernées sont Idoom ADSL, VDSL, Fibre et Idoom Fixe. Les tarifs préférentiels s'appliquent conformément aux tableaux. Les abonnés Idoom Fibre existants bénéficiant de 1 Gbps sont automatiquement transférés vers le nouveau palier à 1.2 Gbps. Les avantages pour les offres Idoom ADSL et VDSL restent inchangés.",
+  "portee_secteur": "Télécommunications (Internet, Téléphonie Fixe)",
+  "source": "Convention AT & L’établissement W",
+  "offres": [
+    {
+      "intitule": "Idoom FIBRE 1.5 Gbps : 1 100 Da/Mois (Nouveau Tarif)",
+      "id_convention_associee": "AT-W-XXX"
+    },
+    {
+      "intitule": "Idoom ADSL 20 Mbps : 800 Da/Mois (Nouveau Tarif)",
+      "id_convention_associee": "AT-W-XXX"
+    },
+    {
+      "intitule": "Idoom VDSL 50 Mbps : 800 Da/Mois (Nouveau Tarif)",
+      "id_convention_associee": "AT-W-XXX"
+    },
+    {
+      "intitule": "Idoom Fixe Forfait 250 Da/Mois : 225 Da/Mois (Remise de 10%)",
+      "id_convention_associee": "AT-W-XXX"
+    },
+    {
+      "intitule": "Idoom Fixe Forfait 500 Da/Mois : 400 Da/Mois (Remise de 20%)",
+      "id_convention_associee": "AT-W-XXX"
+    },
+    {
+      "intitule": "Idoom Fixe Forfait 750 Da/Mois : 525 Da/Mois (Remise de 30%)",
+      "id_convention_associee": "AT-W-XXX"
+    }
+  ]
+},
+
+  
+{
+  "convention_id": "AT-Q-XXX",
+  "nom_partenaire": "L’établissement Q",
+  "date_signature": "13/01/2025",
+  "resume_clauses": "Nouvelle convention pour la mise en place de mesures préférentielles pour la fourniture de services Internet (Idoom ADSL, VDSL et Idoom Fibre) au profit du personnel en activité. Le personnel doit se présenter aux Agences Commerciales d’Algérie Télécom. Simplification des démarches : la demande manuscrite n’est plus requise pour toute nouvelle souscription.",
+  "portee_secteur": "Télécommunications (Internet)",
+  "source": "Convention AT & L’établissement Q",
+  "offres": [
+    {
+      "intitule": "Idoom ADSL 20 Mbps : 1 075 DA (Nouveau Tarif Préférentiel)",
+      "id_convention_associee": "AT-Q-XXX"
+    },
+    {
+      "intitule": "Idoom VDSL 50 Mbps : 1 175 DA (Nouveau Tarif Préférentiel)",
+      "id_convention_associee": "AT-Q-XXX"
+    },
+    {
+      "intitule": "Idoom VDSL 100 Mbps : 1 275 DA (Nouveau Tarif Préférentiel)",
+      "id_convention_associee": "AT-Q-XXX"
+    },
+    {
+      "intitule": "Idoom FTTH 30 Mbps : 1 100 DA (Nouveau Tarif Préférentiel)",
+      "id_convention_associee": "AT-Q-XXX"
+    },
+    {
+      "intitule": "Idoom FTTH 60 Mbps : 1 200 DA (Nouveau Tarif Préférentiel)",
+      "id_convention_associee": "AT-Q-XXX"
+    },
+    {
+      "intitule": "Idoom FTTH 120 Mbps : 1 300 DA (Nouveau Tarif Préférentiel)",
+      "id_convention_associee": "AT-Q-XXX"
+    },
+    {
+      "intitule": "Idoom FTTH 240 Mbps : 1 400 DA (Nouveau Tarif Préférentiel)",
+      "id_convention_associee": "AT-Q-XXX"
+    },
+    {
+      "intitule": "Idoom FTTH 300 Mbps : 1 500 DA (Nouveau Tarif Préférentiel)",
+      "id_convention_associee": "AT-Q-XXX"
+    },
+    {
+      "intitule": "Idoom FTTH 500 Mbps : 1 800 DA (Nouveau Tarif Préférentiel)",
+      "id_convention_associee": "AT-Q-XXX"
+    },
+    {
+      "intitule": "Idoom FTTH 1.2 Gbps : 2 100 DA (Nouveau Tarif Préférentiel)",
+      "id_convention_associee": "AT-Q-XXX"
+    }
+  ]
+},
+
+
+{
+  "convention_id": "AT-U-XXX",
+  "nom_partenaire": "L’établissement U",
+  "date_signature": "11/03/2024",
+  "resume_clauses": "Convention visant à mettre en place des mesures préférentielles pour la téléphonie et l’internet (IDOOM Fixe, IDOOM Internet ADSL, VDSL & Fibre) au bénéfice de l'ensemble du personnel en activité. Elle inclut aussi la mise en place d'un Compte messagerie « 100 » / 1 Giga avec option de mobilité dédiée à la Direction Générale de L’établissement U, offert à une remise de 100%. Les tarifs internet sont différenciés pour le 'Personnel AADL' et le 'Cadre dirigeant'. L'offre Idoom Internet commence à partir de 15 Mbps.",
+  "portee_secteur": "Télécommunications (Internet, Téléphonie Fixe, Messagerie)",
+  "source": "Convention AT & L’établissement U",
+  "offres": [
+    {
+      "intitule": "Idoom Internet (xDSL & FTTH) Palier 1 : 1 199,40 Da (Personnel AADL) / 999,50 Da (Cadre dirigeant)",
+      "id_convention_associee": "AT-U-XXX"
+    },
+    {
+      "intitule": "Idoom Internet (xDSL & FTTH) Palier 2 : 1 559,40 Da (Personnel AADL) / 1 299,50 Da (Cadre dirigeant)",
+      "id_convention_associee": "AT-U-XXX"
+    },
+    {
+      "intitule": "Idoom Internet (xDSL & FTTH) Palier 3 : 1 679,40 Da (Personnel AADL) / 1 399,50 Da (Cadre dirigeant)",
+      "id_convention_associee": "AT-U-XXX"
+    },
+    {
+      "intitule": "Idoom Internet (FTTH) Palier 4 : 1 799,40 Da (Personnel AADL) / 1 499,50 Da (Cadre dirigeant)",
+      "id_convention_associee": "AT-U-XXX"
+    },
+    {
+      "intitule": "Idoom Internet (FTTH) Palier 5 : 2 159,40 DA (Personnel AADL) / 1 799,50 Da (Cadre dirigeant)",
+      "id_convention_associee": "AT-U-XXX"
+    },
+    {
+      "intitule": "Idoom Internet (FTTH) Palier 6 : 2 399,40 DA (Personnel AADL) / 1 999,50 D (Cadre dirigeant)",
+      "id_convention_associee": "AT-U-XXX"
+    },
+    {
+      "intitule": "Idoom Fixe Forfait 250 Da/Mois : 225 Da/Mois (Remise de 10%)",
+      "id_convention_associee": "AT-U-XXX"
+    },
+    {
+      "intitule": "Idoom Fixe Forfait 500 Da/Mois : 400 Da/Mois (Remise de 20%)",
+      "id_convention_associee": "AT-U-XXX"
+    },
+    {
+      "intitule": "Idoom Fixe Forfait 750 Da/Mois : 525 Da/Mois (Remise de 30%)",
+      "id_convention_associee": "AT-U-XXX"
+    },
+     {
+      "intitule": "Compte messagerie « 100 » / 1 Giga avec Mobilité pour la Direction Générale : Remise de 100%",
+      "id_convention_associee": "AT-U-XXX"
+    }
+  ]
+},
+{
+  "convention_id": "AT-L-XXX",
+  "nom_partenaire": "L’établissement L",
+  "date_signature": "12/02/2025",
+  "resume_clauses": "Convention visant à mettre en place des mesures préférentielles pour la fourniture des services internet (Idoom ADSL, VDSL et Idoom Fibre) au bénéfice du personnel en activité et de leurs ayants droit (ascendants et descendants). La demande manuscrite n’est plus requise pour toute nouvelle souscription.",
+  "portee_secteur": "Télécommunications (Internet)",
+  "source": "Convention AT &L’établissement L",
+  "offres": [
+    {
+      "intitule": "Internet Palier 01 (xDSL) : 1 075 DA (Nouveau tarif préférentiel)",
+      "id_convention_associee": "AT-L-XXX"
+    },
+    {
+      "intitule": "Internet Palier 02 (FTTH) : 1 100 DA (Nouveau tarif préférentiel)",
+      "id_convention_associee": "AT-L-XXX"
+    },
+    {
+      "intitule": "Internet Palier 03 (VDSL & FTTH) : 1 200 DA (Nouveau tarif préférentiel)",
+      "id_convention_associee": "AT-L-XXX"
+    },
+    {
+      "intitule": "Internet Palier 04 (VDSL & FTTH) : 1 300 DA (Nouveau tarif préférentiel)",
+      "id_convention_associee": "AT-L-XXX"
+    },
+    {
+      "intitule": "Internet Palier 05 (FTTH) : 1 400 DA (Nouveau tarif préférentiel)",
+      "id_convention_associee": "AT-L-XXX"
+    },
+    {
+      "intitule": "Internet Palier 06 (FTTH) : 1 500 DA (Nouveau tarif préférentiel)",
+      "id_convention_associee": "AT-L-XXX"
+    },
+    {
+      "intitule": "Internet Palier 07 (FTTH) : 1 800 DA (Nouveau tarif préférentiel)",
+      "id_convention_associee": "AT-L-XXX"
+    },
+    {
+      "intitule": "Internet Palier 08 (FTTH) : 2 100 DA (Nouveau tarif préférentiel)",
+      "id_convention_associee": "AT-L-XXX"
+    }
+  ]
+}
+
+]

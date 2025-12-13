@@ -1,0 +1,1721 @@
+[
+    {
+  "id": "idoom_fibre_adsl_vdsl_2025",
+  "name": {
+    "fr": "Nouvelle offre résidentielle Idoom Fibre, ADSL et VDSL - Version 6",
+    "ar": "العرض الخاص الجديد لخدمات Idoom Fibre و ADSL و VDSL"
+  },
+  "desc": {
+    "fr": "Offre Internet résidentielle avec nouveaux paliers de débits boostés et réduction tarifaire sur les forfaits ADSL/VDSL à partir de 20 Mbps. Offre compétitive avec avantages d'installation et équipement pour nouveaux abonnés.",
+    "ar": "عرض إنترنت خاص بمستويات تدفق جديدة معززة وتخفيضات على عروض ADSL/VDSL ابتداءً من 20 ميغابت/ثانية. عرض تنافسي مع مزايا تركيب ومعدات للمشتركين الجدد."
+  },
+  "category": "internet_residentiel",
+  "status": "active",
+  "target": ["clients_residentiels", "nouveaux_clients", "clients_existants"],
+  "pricing": [
+    {
+      "type": "IDOOM_FIBRE_NEW",
+      "plans": [
+        {"ancien_palier": "30 Mbps", "nouveau_palier": "60 Mbps", "tarif": "2 200 DA/Mois"},
+        {"ancien_palier": "60 Mbps", "nouveau_palier": "120 Mbps", "tarif": "2 400 DA/Mois"},
+        {"ancien_palier": "120 Mbps", "nouveau_palier": "240 Mbps", "tarif": "2 600 DA/Mois"},
+        {"ancien_palier": "240 Mbps", "nouveau_palier": "480 Mbps", "tarif": "2 800 DA/Mois"},
+        {"ancien_palier": "300 Mbps", "nouveau_palier": "600 Mbps", "tarif": "3 000 DA/Mois"},
+        {"ancien_palier": "500 Mbps", "nouveau_palier": "1 Gbps", "tarif": "3 600 DA/Mois"},
+        {"ancien_palier": "1.2 Gbps", "nouveau_palier": "1.5 Gbps", "tarif": "4 200 DA/Mois"}
+      ]
+    },
+    {
+      "type": "IDOOM_ADSL_VDSL_NEW",
+      "plans": [
+        {"debit": "10 Mbps", "ancien_tarif": "1 600 DA", "nouveau_tarif": "1 600 DA", "frais_installation": "2 000 DA"},
+        {"debit": "15 Mbps", "ancien_tarif": "2 000 DA", "nouveau_tarif": "2 000 DA", "frais_installation": "gratuit"},
+        {"debit": "20 Mbps", "ancien_tarif": "2 200 DA", "nouveau_tarif": "2 150 DA", "frais_installation": "gratuit"},
+        {"debit": "50 Mbps", "ancien_tarif": "2 400 DA", "nouveau_tarif": "2 350 DA", "frais_installation": "gratuit"},
+        {"debit": "100 Mbps", "ancien_tarif": "---", "nouveau_tarif": "2 550 DA", "frais_installation": "gratuit"}
+      ]
+    },
+    {
+      "type": "IDOOM_ADSL_VDSL_EXISTING",
+      "plans": [
+        {"debit": "10 Mbps", "ancien_tarif": "1 600 DA/Mois", "nouveau_tarif": "1 600 DA/Mois"},
+        {"debit": "15 Mbps", "ancien_tarif": "2 000 DA/Mois", "nouveau_tarif": "2 000 DA/Mois"},
+        {"debit": "20 Mbps", "ancien_tarif": "2 200 DA/Mois", "nouveau_tarif": "2 150 DA/Mois"},
+        {"debit": "50 Mbps", "ancien_tarif": "2 400 DA/Mois", "nouveau_tarif": "2 350 DA/Mois"},
+        {"debit": "100 Mbps", "ancien_tarif": "2 600 DA/Mois", "nouveau_tarif": "2 550 DA/Mois"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Débits fibre doublés (ex: 30→60 Mbps, 60→120 Mbps, etc.)",
+      "Modem optique offert pour Fibre (60 Mbps à 1.5 Gbps)",
+      "Installation gratuite pour Fibre et ADSL/VDSL (sauf 10 Mbps)",
+      "1 mois de connexion offert pour Fibre",
+      "Engagement 12 mois pour nouveaux abonnés",
+      "Migration automatique pour clients existants Fibre",
+      "Upload = 30% du débit choisi (Fibre)",
+      "Test d'éligibilité pour 1 Gbps/1.5 Gbps Fibre et 50/100 Mbps VDSL"
+    ],
+    "ar": [
+      "مضاعفة تدفقات الفايبر (مثال: 30→60 ميغابت/ثانية)",
+      "مودم بصري مجاني للفايبر (من 60 ميغابت/ثانية إلى 1.5 جيجابت/ثانية)",
+      "تركيب مجاني للفايبر و ADSL/VDSL (ما عدا 10 ميغابت/ثانية)",
+      "شهر إنترنت مجاني للفايبر",
+      "التزام 12 شهراً للمشتركين الجدد",
+      "تحويل تلقائي للزبائن الحاليين بالفايبر",
+      "رفع Upload = 30% من التدفق المختار (فايبر)",
+      "اختبار أهلية لـ 1 جيجابت/ثانية و 1.5 جيجابت/ثانية فايبر و 50/100 ميغابت/ثانية VDSL"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["fibre", "adsl", "vdsl"],
+    "engagement_required": true,
+    "eligibility_test": ["1_gbps", "1.5_gbps", "vdsl_50", "vdsl_100"]
+  },
+  "sources": {
+    "fr": "Argumentaire Nouveaux Avantages Liés au Paiement Électronique -finish- version française.docx",
+    "ar": "Argumentaire Nouveaux Avantages Liés au Paiement Électronique -finish - version arabe.docx"
+  }
+},
+{
+  "id": "idoom_fibre_weekend_boost_2025",
+  "name": {
+    "fr": "Nouvelle offre WEEK-END BOOST de Idoom Fibre",
+    "ar": "العرض الجديد WEEK-END BOOST من Idoom Fibre"
+  },
+  "desc": {
+    "fr": "Offre temporaire permettant aux abonnés Idoom Fibre (120 Mbps à 1 Gbps) d'augmenter leur débit pendant le week-end (du vendredi 00h01 au samedi 23h59), avec activation valable 48h et déduction de 3 à 6 jours de l'abonnement selon le débit choisi.",
+    "ar": "عرض مؤقت يمكن مشتركي Idoom Fibre (من 120 ميغابت/ثانية إلى 1 جيجابت/ثانية) من رفع التدفق خلال عطلة نهاية الأسبوع (من الجمعة 00:01 إلى السبت 23:59)، مع تفعيل صالح لمدة 48 ساعة وخصم يتراوح بين 3 و6 أيام من الاشتراك حسب التدفق المختار."
+  },
+  "category": "internet_residentiel",
+  "status": "active",
+  "target": ["clients_residentiels", "clients_existants"],
+  "pricing": [
+    {
+      "type": "WEEKEND_BOOST_DEDUCTIONS",
+      "plans": [
+        {"debit_initial": "120 Mbps", "boost_240": "3 jours", "boost_480": "3 jours", "boost_600": "4 jours", "boost_1gbps": "5 jours", "boost_1.5gbps": "6 jours"},
+        {"debit_initial": "240 Mbps", "boost_240": "/", "boost_480": "3 jours", "boost_600": "3 jours", "boost_1gbps": "4 jours", "boost_1.5gbps": "5 jours"},
+        {"debit_initial": "480 Mbps", "boost_240": "/", "boost_480": "/", "boost_600": "3 jours", "boost_1gbps": "4 jours", "boost_1.5gbps": "4 jours"},
+        {"debit_initial": "600 Mbps", "boost_240": "/", "boost_480": "/", "boost_600": "/", "boost_1gbps": "3 jours", "boost_1.5gbps": "3 jours"},
+        {"debit_initial": "1 Gbps", "boost_240": "/", "boost_480": "/", "boost_600": "/", "boost_1gbps": "/", "boost_1.5gbps": "3 jours"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Augmentation temporaire du débit pendant le week-end",
+      "Disponible du vendredi 00h01 au samedi 23h59",
+      "Validité 48h après activation",
+      "Débits boost disponibles : 240 Mbps, 480 Mbps, 600 Mbps, 1 Gbps, 1.5 Gbps",
+      "Déduction de 3 à 6 jours de l'abonnement selon le boost choisi",
+      "Activation via Espace Client ou application My Idoom",
+      "Idéal pour streaming, gaming et téléchargements intensifs"
+    ],
+    "ar": [
+      "زيادة مؤقتة في التدفق خلال عطلة نهاية الأسبوع",
+      "متاح من الجمعة 00:01 إلى السبت 23:59",
+      "صلاحية 48 ساعة بعد التفعيل",
+      "التدفقات المتاحة للتعزيز: 240 ميغابت/ثانية، 480 ميغابت/ثانية، 600 ميغابت/ثانية، 1 جيجابت/ثانية، 1.5 جيجابت/ثانية",
+      "خصم من 3 إلى 6 أيام من الاشتراك حسب التعزيز المختار",
+      "التفعيل عبر الفضاء الزبون أو تطبيق My Idoom",
+      "مثالي للمشاهدة، الألعاب الإلكترونية والتحميلات المكثفة"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["fibre"],
+    "eligible_debits": ["120 Mbps", "240 Mbps", "480 Mbps", "600 Mbps", "1 Gbps"],
+    "excluded_clients": ["conventionnés", "locataires", "idoom_gamer"],
+    "min_debit_required": "120 Mbps",
+    "activation_period": ["vendredi_00h01", "samedi_23h59"],
+    "validity_type": "temporelle"
+  },
+  "sources": {
+    "fr": "-- Argumentaire Offre Weekend Boost V2-- finish JUILLET FR Version 2.docx",
+    "ar": "-- Argumentaire Offre Weekend Boost V2-- finish JUILLET AR version 2.docx"
+  }
+},
+{
+  "id": "timbre_fiscal_2025",
+  "name": {
+    "fr": "Droits de timbre fiscal conformément à la nouvelle loi de finance 2025",
+    "ar": "الرسوم المتعلقة بالطابع المالي وفقًا لقانون المالية الجديد لسنة 2025"
+  },
+  "desc": {
+    "fr": "Taxe obligatoire appliquée sur les paiements en espèces pour certains services (téléphonie fixe, Internet) selon les tranches de montant définies par la loi de finances 2025. Le paiement s'effectue en agence, avec possibilité d'exemption via les moyens de paiement électroniques.",
+    "ar": "ضريبة إلزامية تُطبق على المدفوعات النقدية لبعض الخدمات (الهاتف الثابت، الإنترنت) حسب شرائح المبلغ المحددة في قانون المالية 2025. يتم الدفع في الوكالات، مع إمكانية الإعفاء عبر وسائل الدفع الإلكتروني."
+  },
+  "category": "fiscalite_reglementation",
+  "status": "active",
+  "target": ["tous_clients"],
+  "pricing": [
+    {
+      "type": "TAUX_TIMBRE_FISCAL",
+      "plans": [
+        {"tranche": "≤ 500 DA", "taux": "5 DZD fixe"},
+        {"tranche": "> 500 DA et ≤ 30.000 DA", "taux": "1%"},
+        {"tranche": "> 30.000 DA et ≤ 100.000 DA", "taux": "1,5%"},
+        {"tranche": "> 100.000 DA", "taux": "2%"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Taxe légale conforme au Code de l'Enregistrement et du Timbre",
+      "Applicable aux paiements en espèces uniquement",
+      "Calcul progressif selon la tranche de montant",
+      "Exemption via paiement électronique, TPE, chèque ou virement",
+      "Paiement intégré lors de la souscription ou du rechargement",
+      "Mention claire sur les contrats et factures",
+      "Explication par les conseillers en agence"
+    ],
+    "ar": [
+      "ضريبة قانونية وفق قانون التسجيل والطابع",
+      "تُطبق على المدفوعات النقدية فقط",
+      "حساب تدريجي حسب شريحة المبلغ",
+      "إعفاء عبر الدفع الإلكتروني، TPE، الشيك أو التحويل البنكي",
+      "دفع مدمج أثناء الاشتراك أو إعادة الشحن",
+      "إشارة واضحة على العقود والفواتير",
+      "شرح من المستشارين في الوكالات"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel", "professionnel", "tous"],
+    "payment_method": ["especes"],
+    "services_concernes": ["telephonie_fixe", "internet"],
+    "exemption_methods": ["paiement_en_ligne", "tpe", "cheque", "virement"]
+  },
+  "sources": {
+    "fr": "Argumentaire Timbre fiscal conformément à la nouvelle loi de finance 2025 version FR.docx",
+    "ar": "ARGUME~1(1).DOC"
+  }
+},
+{
+  "id": "wifi6_upgrade_preferential_tarif_2025",
+  "name": {
+    "fr": "Tarif préférentiel sur ONT Wi-Fi 6 au profit des clients résidentiels et conventionnés des paliers 1 , 1.2 et 1.5 Gbps",
+    "ar": "سعر تفضيلي على جهاز ONT Wi-Fi 6 لفتاة الزبائن الخواص والخواص المستأجرين و المتعاقدين ذات التدفقات 1 او 1.2 او 1.5 جيغابت/ثانية"
+  },
+  "desc": {
+    "fr": "Offre permettant aux clients Idoom Fibre (résidentiels, locataires, conventionnés) disposant d'un ONT Wi-Fi 4 ou 5 d'acquérir un modem Wi-Fi 6 à tarif préférentiel, sous conditions d'éligibilité et avec restitution de l'ancien équipement.",
+    "ar": "عرض يمكّن زبائن Idoom Fibre (الخواص، المستأجرين، المتعاقدين) الحاليين المجهزين بـ ONT Wi-Fi 4 أو 5 من اقتناء مودم Wi-Fi 6 بسعر تفضيلي، بشروط أهلية واسترجاع الجهاز القديم."
+  },
+  "category": "equipement_upgrade",
+  "status": "active",
+  "target": ["clients_residentiels", "clients_locataires", "clients_conventionnes", "gamers"],
+  "pricing": [
+    {
+      "type": "TARIF_PREFERENTIEL_WIFI6",
+      "plans": [
+        {"categorie": "Résidentiel / Locataire / Gamers", "palier": "1.5 Gbps", "tarif": "3 500 DA"},
+        {"categorie": "Conventionné", "palier": "1 Gbps, 1.2 Gbps ou 1.5 Gbps", "tarif": "5 800 DA"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Échange ONT Wi-Fi 4/5 contre ONT Wi-Fi 6",
+      "Tarif préférentiel selon catégorie client",
+      "Éligibilité vérifiée via application WASL",
+      "Taux de rechargement ≥ 80% requis pour résidentiels",
+      "Restitution obligatoire de l'ancien modem + chargeur",
+      "Un seul ONT Wi-Fi 6 par ligne",
+      "Zones d'équipement: FiberHome, Huawei, Nokia, ZTE"
+    ],
+    "ar": [
+      "استبدال ONT Wi-Fi 4/5 بـ ONT Wi-Fi 6",
+      "سعر تفضيلي حسب فئة الزبون",
+      "الأهلية تُتحقق عبر تطبيق WASL",
+      "معدل تعبئة لا يقل عن 80% مطلوب للخواص",
+      "إرجاع المودم القديم + الشاحن إلزامي",
+      "جهاز ONT Wi-Fi 6 واحد فقط لكل خط",
+      "المناطق المشمولة: FiberHome, Huawei, Nokia, ZTE"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel", "locataire", "conventionne"],
+    "technologie": ["fibre"],
+    "debit_min": "1 Gbps",
+    "eligible_paliers": ["1 Gbps", "1.2 Gbps", "1.5 Gbps"],
+    "equipment_brands": ["FiberHome", "Huawei", "Nokia", "ZTE"],
+    "requires_old_device_return": true
+  },
+  "sources": {
+    "fr": "OFFREO~2.DOC",
+    "ar": "OFFREO~1.DOC",
+    "decharge_fr": "DCHARG~2.DOC",
+    "decharge_ar": "DCHARG~1.DOC"
+  }
+},
+{
+  "id": "ont_gpon_xgspon_upgrade_2025",
+  "name": {
+    "fr": "Révision du prix des ONT GPON Wi-Fi 6 & Lancement des ONT XGS-PON",
+    "ar": "مراجعة أسعار أجهزة ONT GPON Wi-Fi 6 وإطلاق أجهزة ONT XGS-PON"
+  },
+  "desc": {
+    "fr": "Offre de modernisation d'équipement avec réduction du prix des ONT GPON Wi-Fi 6 et introduction des ONT XGS-PON Wi-Fi 6 pour les clients Idoom Fibre, sous condition de restitution de l'ancien modem et d'éligibilité technique.",
+    "ar": "عرض تحديث المعدات يشمل تخفيض سعر أجهزة ONT GPON Wi-Fi 6 وإدخال أجهزة ONT XGS-PON Wi-Fi 6 لزبائن Idoom Fibre، بشروط استرجاع المودم القديم والأهلية التقنية."
+  },
+  "category": "equipement_upgrade",
+  "status": "active",
+  "target": ["nouveaux_clients", "clients_existants"],
+  "pricing": [
+    {
+      "type": "ONT_WIFI6_PRICING",
+      "plans": [
+        {"technologie": "G-PON Wi-Fi 6", "ancien_tarif": "14 200 DA", "nouveau_tarif": "7 000 DA", "condition": "Restitution ONT Wi-Fi 4/5"},
+        {"technologie": "XGS-PON Wi-Fi 6", "ancien_tarif": "---", "nouveau_tarif": "14 200 DA", "condition": "Éligibilité XGS-PON + restitution ancien ONT"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Réduction de 50% sur ONT GPON Wi-Fi 6 (7 000 DA)",
+      "Lancement ONT XGS-PON Wi-Fi 6 (14 200 DA)",
+      "Restitution obligatoire de l'ancien ONT (Wi-Fi 4/5/6)",
+      "Éligibilité XGS-PON : débit ≥ 1 Gbps + carte compatible",
+      "Zones éligibles : Huawei et FiberHome",
+      "Test d'éligibilité en ligne via site Algérie Télécom",
+      "Présence obligatoire du titulaire pour restitution"
+    ],
+    "ar": [
+      "تخفيض 50% على أجهزة ONT GPON Wi-Fi 6 (7,000 دج)",
+      "إطلاق أجهزة ONT XGS-PON Wi-Fi 6 (14,200 دج)",
+      "إرجاع إلزامي للجهاز القديم (Wi-Fi 4/5/6)",
+      "أهلية XGS-PON: تدفق ≥ 1 جيجابت/ثا + بطاقة متوافقة",
+      "المناطق المؤهلة: Huawei و FiberHome",
+      "اختبار أهلية عبر موقع اتصالات الجزائر",
+      "حضور صاحب الخط إجباري للتسليم"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["fibre"],
+    "eligible_debits": ["1 Gbps", "1.2 Gbps", "1.5 Gbps", ">1.5 Gbps"],
+    "equipment_brands": ["Huawei", "FiberHome", "ZTE", "Nokia"],
+    "requires_old_device_return": true,
+    "eligibility_test_required": true,
+    "xgs_pon_compatible": true
+  },
+  "sources": {
+    "fr": "Argumentaire Révision du prix des ONT GPON Wi-Fi 6 & Lancement des ONT en français.docx",
+    "ar": "Argumentaire Révision du prix des ONT GPON Wi-Fi 6 & Lancement des ONT en arabe.docx"
+  }
+},
+{
+  "id": "idoom_medium_business_2025",
+  "name": {
+    "fr": "Nouvelle offre IDOOM Medium Business pour nouvelle acquisition et Modernisation",
+    "ar": "العرض الجديد IDOOOM Medium Business لزبائن الجدد والعصرنة نحو Idoom fibre"
+  },
+  "desc": {
+    "fr": "Offre professionnelle dédiée aux PME, PMI, TPE, startups et professions libérales, avec des débits élevés, une adresse IP fixe, une priorité de traitement en agence et des options de modernisation pour les clients ADSL/VDSL existants.",
+    "ar": "عرض مهني مخصص للمؤسسات الصغيرة والمتوسطة، الشركات الناشئة والمهن الحرة، يوفر تدفقات عالية، عنوان IP ثابت، أولوية في التكفل بالوكالات وخيارات ترقية للزبائن الحاليين على ADSL/VDSL."
+  },
+  "category": "internet_professionnel",
+  "status": "active",
+  "target": ["professionnels", "pme", "pmi", "tpe", "startups", "associations", "hypermarchés"],
+  "pricing": [
+    {
+      "type": "IDOOM_MEDIUM_BUSINESS_INTERNET",
+      "plans": [
+        {"debit": "200 Mbps", "tarif_mensuel": "16 000 DA", "avantages": ["30 jours connexion", "IP fixe", "priorité agence"]},
+        {"debit": "400 Mbps", "tarif_mensuel": "27 000 DA", "avantages": ["30 jours connexion", "IP fixe", "priorité agence"]},
+        {"debit": "800 Mbps", "tarif_mensuel": "35 000 DA", "avantages": ["30 jours connexion", "IP fixe", "priorité agence"]},
+        {"debit": "1,2 Gbps", "tarif_mensuel": "40 000 DA", "avantages": ["30 jours connexion", "IP fixe", "priorité agence"]},
+        {"debit": "1,6 Gbps", "tarif_mensuel": "45 000 DA", "avantages": ["30 jours connexion", "IP fixe", "priorité agence"]}
+      ]
+    },
+    {
+      "type": "FRAIS_INITIAUX",
+      "plans": [
+        {"element": "Prix ONT", "montant": "14 200 DA"},
+        {"element": "Frais installation", "montant": "6 000 DA"}
+      ]
+    },
+    {
+      "type": "IDOOM_FIXE_TELEPHONIE",
+      "plans": [
+        {"service": "Abonnement mensuel", "tarif": "250 DA"},
+        {"service": "Appels locaux/nationaux/Volte", "tarif": "gratuits"},
+        {"service": "Appels vers mobiles", "tarif": "8 DA/min (indivisible)"},
+        {"service": "Appels internationaux", "tarif": "selon grille"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Débits de 200 Mbps à 1,6 Gbps",
+      "Adresse IP fixe incluse",
+      "Priorité de prise en charge en agence",
+      "ONT et installation offerts pour abonnement ≥ 3 mois",
+      "13ème mois offert pour paiement annuel (12 mois)",
+      "Upload = 30% du débit choisi",
+      "Modernisation possible depuis ADSL/VDSL",
+      "Engagement 12 mois pour nouveaux abonnés"
+    ],
+    "ar": [
+      "تدفقات من 200 ميغابت/ثا إلى 1.6 جيجابت/ثا",
+      "عنوان IP ثابت مضمّن",
+      "أولوية في التكفل داخل الوكالة",
+      "جهاز ONT والتركيب مجانيان للاشتراك ≥ 3 أشهر",
+      "الشهر 13 مجاني للدفع السنوي (12 شهراً)",
+      "رفع Upload = 30% من التدفق المختار",
+      "ترقية ممكنة من ADSL/VDSL",
+      "التزام 12 شهراً للمشتركين الجدد"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["professionnel"],
+    "technologie": ["fibre"],
+    "eligible_categories": ["startup", "profession_liberale", "artisan", "pme", "pmi", "tpe", "association", "hypermarché"],
+    "engagement": true
+  },
+  "sources": {
+    "fr": "ARGUME~2.DOC",
+    "ar": "Argumentaire idoom Medium business et moderni v 2.0 AR.docx"
+  }
+},
+{
+  "id": "parrainage_idoom_2025",
+  "name": {
+    "fr": "Nouvelle Offre Parrainage via l'application My Idoom",
+    "ar": "العرض الجديد للتوصية عبر تطبيق My Idoom"
+  },
+  "desc": {
+    "fr": "Offre de parrainage récompensant les clients Idoom Fibre existants qui recommandent de nouveaux clients via l'application My Idoom, avec des avantages en durée et débit pour le parrain et le parrainé.",
+    "ar": "عرض توصية يكافئ الزبائن الحاليين على Idoom Fibre الذين يوصون زبائن جدد عبر تطبيق My Idoom، بمزايا في المدة والتدفق لكل من الموصي والموصى له."
+  },
+  "category": "parrainage_fidelite",
+  "status": "active",
+  "target": ["clients_residentiels", "nouveaux_clients"],
+  "pricing": [
+    {
+      "type": "AVANTAGES_PARRAINAGE",
+      "plans": [
+        {"role": "Parrain", "avantage": "10 jours de connexion", "debit": "1.5 Gbps", "condition": "Client Idoom Fibre actif"},
+        {"role": "Parrainé", "avantage": "1 mois de connexion + débit supérieur au forfait choisi", "debit": "Débit supérieur pendant 1 mois", "condition": "Nouveau client Idoom Fibre"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "10 jours de connexion offerts au parrain",
+      "1 mois de connexion offert au parrainé",
+      "Débit supérieur au forfait choisi pendant 1 mois pour le parrainé",
+      "Activation automatique des bonus après validation sur My Idoom",
+      "Cumul des parrainages illimité",
+      "Compte My Idoom actif requis",
+      "Code de parrainage personnel et confidentiel",
+      "Délai de 7 jours pour activation du compte après mise en service"
+    ],
+    "ar": [
+      "10 أيام إنترنت مجانية للموصي",
+      "شهر إنترنت مجاني للموصى له",
+      "تدفق أعلى من الباقة المختارة لمدة شهر للموصى له",
+      "تفعيل تلقائي للمزايا بعد التأكيد على My Idoom",
+      "تراكم عمليات التوصية غير محدود",
+      "حساب My Idoom مفعّل مطلوب",
+      "رمز التوصية شخصي وسري",
+      "مهلة 7 أيام لتفعيل الحساب بعد التشغيل"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["fibre"],
+    "eligible_clients": ["residentiels", "locataires", "gamers", "gamers_locataires"],
+    "excluded_clients": ["conventionnes"],
+    "activation_platform": "my_idoom",
+    "requires_active_account": true,
+    "bonus_cumulative": true
+  },
+  "sources": {
+    "fr": "Argumentaire Nouvelle Offre Parrainage 2025 - version FR.docx",
+    "ar": "Argumentaire Nouvelle Offre Parrainage 2025 - version arabe -.docx"
+  }
+},
+{
+  "id": "idoom_fibre_adsl_vdsl_version6_2025",
+  "name": {
+    "fr": "Nouvelle offre résidentielle Idoom fibre, ADSL et VDSL",
+    "ar": "العرض الخاص الجديد لخدمات Idoom Fibre و ADSL و VDSL"
+  },
+  "desc": {
+    "fr": "Offre Internet résidentielle avec nouveaux paliers de débits boostés (doublement des débits fibre) et réduction tarifaire sur les forfaits ADSL/VDSL à partir de 20 Mbps. Offre compétitive avec avantages d'installation et équipement pour nouveaux abonnés.",
+    "ar": "عرض إنترنت خاص بمستويات تدفق جديدة معززة (مضاعفة تدفقات الفايبر) وتخفيضات على عروض ADSL/VDSL ابتداءً من 20 ميغابت/ثانية. عرض تنافسي مع مزايا تركيب ومعدات للمشتركين الجدد."
+  },
+  "category": "internet_residentiel",
+  "status": "active",
+  "target": ["clients_residentiels", "nouveaux_clients", "clients_existants"],
+  "pricing": [
+    {
+      "type": "IDOOM_FIBRE_NEW_ACQUISITION",
+      "plans": [
+        {"ancien_palier": "30 Mbps", "nouveau_palier": "60 Mbps", "tarif": "2 200 DA/Mois"},
+        {"ancien_palier": "60 Mbps", "nouveau_palier": "120 Mbps", "tarif": "2 400 DA/Mois"},
+        {"ancien_palier": "120 Mbps", "nouveau_palier": "240 Mbps", "tarif": "2 600 DA/Mois"},
+        {"ancien_palier": "240 Mbps", "nouveau_palier": "480 Mbps", "tarif": "2 800 DA/Mois"},
+        {"ancien_palier": "300 Mbps", "nouveau_palier": "600 Mbps", "tarif": "3 000 DA/Mois"},
+        {"ancien_palier": "500 Mbps", "nouveau_palier": "1 Gbps", "tarif": "3 600 DA/Mois"},
+        {"ancien_palier": "1.2 Gbps", "nouveau_palier": "1.5 Gbps", "tarif": "4 200 DA/Mois"}
+      ]
+    },
+    {
+      "type": "IDOOM_ADSL_VDSL_NEW_ACQUISITION",
+      "plans": [
+        {"debit": "10 Mbps", "ancien_tarif": "1 600 DA", "nouveau_tarif": "1 600 DA", "frais_installation": "2 000 DA"},
+        {"debit": "15 Mbps", "ancien_tarif": "2 000 DA", "nouveau_tarif": "2 000 DA", "frais_installation": "gratuit"},
+        {"debit": "20 Mbps", "ancien_tarif": "2 200 DA", "nouveau_tarif": "2 150 DA", "frais_installation": "gratuit"},
+        {"debit": "50 Mbps", "ancien_tarif": "2 400 DA", "nouveau_tarif": "2 350 DA", "frais_installation": "gratuit"},
+        {"debit": "100 Mbps", "ancien_tarif": "---", "nouveau_tarif": "2 550 DA", "frais_installation": "gratuit"}
+      ]
+    },
+    {
+      "type": "IDOOM_ADSL_VDSL_EXISTING_CLIENTS",
+      "plans": [
+        {"debit": "10 Mbps", "ancien_tarif": "1 600 DA/Mois", "nouveau_tarif": "1 600 DA/Mois"},
+        {"debit": "15 Mbps", "ancien_tarif": "2 000 DA/Mois", "nouveau_tarif": "2 000 DA/Mois"},
+        {"debit": "20 Mbps", "ancien_tarif": "2 200 DA/Mois", "nouveau_tarif": "2 150 DA/Mois"},
+        {"debit": "50 Mbps", "ancien_tarif": "2 400 DA/Mois", "nouveau_tarif": "2 350 DA/Mois"},
+        {"debit": "100 Mbps", "ancien_tarif": "2 600 DA/Mois", "nouveau_tarif": "2 550 DA/Mois"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Débits fibre doublés (ex: 30→60 Mbps, 60→120 Mbps, etc.)",
+      "Modem optique offert pour Fibre (60 Mbps à 1.5 Gbps)",
+      "Installation gratuite pour Fibre et ADSL/VDSL (sauf 10 Mbps)",
+      "1 mois de connexion offert pour Fibre",
+      "Engagement 12 mois pour nouveaux abonnés",
+      "Migration automatique pour clients existants Fibre",
+      "Upload = 30% du débit choisi (Fibre)",
+      "Test d'éligibilité pour 1 Gbps/1.5 Gbps Fibre et 50/100 Mbps VDSL"
+    ],
+    "ar": [
+      "مضاعفة تدفقات الفايبر (مثال: 30→60 ميغابت/ثانية)",
+      "مودم بصري مجاني للفايبر (من 60 ميغابت/ثانية إلى 1.5 جيجابت/ثانية)",
+      "تركيب مجاني للفايبر و ADSL/VDSL (ما عدا 10 ميغابت/ثانية)",
+      "شهر إنترنت مجاني للفايبر",
+      "التزام 12 شهراً للمشتركين الجدد",
+      "تحويل تلقائي للزبائن الحاليين بالفايبر",
+      "رفع Upload = 30% من التدفق المختار (فايبر)",
+      "اختبار أهلية لـ 1 جيجابت/ثانية و 1.5 جيجابت/ثانية فايبر و 50/100 ميغابت/ثانية VDSL"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["fibre", "adsl", "vdsl"],
+    "engagement": true,
+    "eligibility_test": ["1_gbps", "1.5_gbps", "vdsl_50", "vdsl_100"],
+    "equipment_included": ["fibre_modem"]
+  },
+  "sources": {
+    "fr": "Argumentaire Mise à jour offre idoom fibre, ADSL et VDSL 17072025 version FR.docx",
+    "ar": "ARGUME~1.DOC"
+  }
+},
+{
+  "id": "idoom_fibre_migration_2025",
+  "name": {
+    "fr": "Nouvelle offre de modernisation Idoom ADSL, VDSL et 4G LTE vers Idoom Fibre",
+    "ar": "العرض الجديد لعصرنة خدمات Idoom ADSL و VDSL و 4G LTE إلى Idoom Fibre"
+  },
+  "desc": {
+    "fr": "Opération spéciale de basculement des abonnés résidentiels ADSL, VDSL et 4G LTE vers la fibre optique, avec modem offert, installation gratuite et paliers de débit allant jusqu'à 1,5 Gbps.",
+    "ar": "عملية خاصة لتحويل المشتركين الخواص من ADSL و VDSL و 4G LTE إلى الألياف البصرية، مع مودم مجاني وتركيب مجاني وتدفقات تصل إلى 1.5 جيجابت/ثانية."
+  },
+  "category": "internet_residentiel",
+  "status": "active",
+  "target": ["clients_residentiels", "clients_existants_adsl_vdsl", "clients_existants_4g_lte"],
+  "pricing": [
+    {
+      "type": "MIGRATION_ADSL_VDSL_TO_FIBRE",
+      "plans": [
+        {
+          "debit": "15 Mbps",
+          "tarif_installation": "4 500 DA + 6 000 DA droits d'installation",
+          "avantages": "Modem optique + 1 mois d'internet gratuit",
+          "conditions": "Internet actif, dette apurée ou échéancier"
+        },
+        {
+          "debit": "60 Mbps à 1.5 Gbps",
+          "tarif_installation": "0 DA",
+          "avantages": "Modem optique + installation gratuite",
+          "conditions": "Internet actif, dette apurée ou échéancier"
+        }
+      ]
+    },
+    {
+      "type": "MIGRATION_4G_LTE_TO_FIBRE",
+      "plans": [
+        {
+          "debit": "60 Mbps à 1.5 Gbps",
+          "tarif_installation": "0 DA",
+          "avantages": "Modem optique + installation gratuite",
+          "conditions": "Restitution obligatoire du CPE 4G LTE"
+        },
+        {
+          "debit": "15 Mbps",
+          "tarif_installation": "Non spécifié",
+          "avantages": "Modem optique + installation gratuite (si applicable)",
+          "conditions": "Aucune restitution de CPE 4G LTE requise"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Modem optique offert pour tous les paliers",
+      "Installation gratuite pour les paliers ≥ 60 Mbps",
+      "1 mois d'internet offert pour le palier 15 Mbps (ADSL/VDSL)",
+      "Migration automatique avec annulation de l'ancien abonnement",
+      "Test d'éligibilité pour les paliers 1 Gbps et 1.5 Gbps",
+      "Conversion du solde des jours restants selon le nouveau débit"
+    ],
+    "ar": [
+      "مودم بصري مجاني لجميع المستويات",
+      "تركيب مجاني للمستويات ≥ 60 ميغابت/ثانية",
+      "شهر إنترنت مجاني لمستوى 15 ميغابت/ثانية (ADSL/VDSL)",
+      "تحويل تلقائي مع إلغاء الاشتراك القديم",
+      "اختبار أهلية لمستويات 1 جيجابت/ثانية و 1.5 جيجابت/ثانية",
+      "تحويل رصيد الأيام المتبقية حسب التدفق الجديد"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["fibre", "adsl", "vdsl", "4g_lte"],
+    "engagement_required": false,
+    "eligibility_test": ["1_gbps", "1.5_gbps"]
+  },
+  "sources": {
+    "fr": "OFFREM~1.DOC",
+    "ar": "OFFREM~2.DOC"
+  }
+},
+{
+  "id": "idoom_medium_business_2025",
+  "name": {
+    "fr": "Nouvelle offre IDOOM Medium Business pour nouvelle acquisition et Modernisation",
+    "ar": "العرض الجديد IDOOM Medium Business لزبائن الجدد والعصرنة نحو Idoom fibre"
+  },
+  "desc": {
+    "fr": "Offre professionnelle pour entreprises moyennes avec débits élevés, adresse IP fixe incluse, prise en charge prioritaire et options de modernisation pour clients ADSL/VDSL existants.",
+    "ar": "عرض مهني للمؤسسات المتوسطة مع تدفقات عالية، عنوان IP ثابت، أولوية في التكفل وخيارات ترقية للزبائن الحاليين من ADSL/VDSL."
+  },
+  "category": "internet_professionnel",
+  "status": "active",
+  "target": ["startups", "professionnels_liberaux", "artisans", "pme", "pmi", "tpe", "associations", "hypermarches"],
+  "pricing": [
+    {
+      "type": "IDOOM_MEDIUM_BUSINESS_NEW",
+      "plans": [
+        {
+          "debit": "200 Mbps",
+          "tarif_mensuel": "16 000 DA",
+          "frais_ont": "14 200 DA",
+          "frais_installation": "6 000 DA",
+          "conditions_offre": "ONT et installation offerts pour abonnement ≥ 3 mois"
+        },
+        {
+          "debit": "400 Mbps",
+          "tarif_mensuel": "27 000 DA",
+          "frais_ont": "14 200 DA",
+          "frais_installation": "6 000 DA",
+          "conditions_offre": "ONT et installation offerts pour abonnement ≥ 3 mois"
+        },
+        {
+          "debit": "800 Mbps",
+          "tarif_mensuel": "35 000 DA",
+          "frais_ont": "14 200 DA",
+          "frais_installation": "6 000 DA",
+          "conditions_offre": "ONT et installation offerts pour abonnement ≥ 3 mois"
+        },
+        {
+          "debit": "1,2 Gbps",
+          "tarif_mensuel": "40 000 DA",
+          "frais_ont": "14 200 DA",
+          "frais_installation": "6 000 DA",
+          "conditions_offre": "ONT et installation offerts pour abonnement ≥ 3 mois"
+        },
+        {
+          "debit": "1,6 Gbps",
+          "tarif_mensuel": "45 000 DA",
+          "frais_ont": "14 200 DA",
+          "frais_installation": "6 000 DA",
+          "conditions_offre": "ONT et installation offerts pour abonnement ≥ 3 mois"
+        }
+      ]
+    },
+    {
+      "type": "IDOOM_FIXE_SERVICE",
+      "plans": [
+        {
+          "service": "Idoom Fixe",
+          "tarif_mensuel": "250 DA",
+          "appels_locaux": "gratuits",
+          "appels_nationaux": "gratuits",
+          "appels_volte": "gratuits",
+          "appels_mobiles": "8 DA/minute",
+          "appels_internationaux": "Selon grille tarifaire"
+        }
+      ]
+    },
+    {
+      "type": "MODERNISATION_VERS_IDOOM_MEDIUM_BUSINESS",
+      "plans": [
+        {
+          "type_acces": "Voix & Data Tête de ligne",
+          "offre_associee": "Idoom Medium Business",
+          "ont_fourni": "Wi-Fi 6",
+          "conditions": "ONT: 14 200 DA, Installation: 6 000 DA, Redevance selon débit"
+        },
+        {
+          "type_acces": "Voix uniquement",
+          "offre_associee": "Idoom Fixe 250 DA",
+          "ont_fourni": "Wi-Fi 4 ou Wi-Fi 5",
+          "conditions": "Frais d'accès par ligne: 3 000 DA"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Débits de 200 Mbps à 1,6 Gbps",
+      "Adresse IP fixe incluse",
+      "Prise en charge prioritaire en agence",
+      "30 jours de connexion offerts",
+      "ONT et installation offerts pour abonnement ≥ 3 mois",
+      "13ème mois gratuit pour paiement annuel",
+      "Upload = 30% du débit download",
+      "Modernisation possible pour clients ADSL/VDSL",
+      "Engagement 12 mois pour nouveaux clients",
+      "Option VoIP pour lignes sans data"
+    ],
+    "ar": [
+      "تدفقات من 200 ميغابت/ثانية إلى 1.6 جيجابت/ثانية",
+      "عنوان IP ثابت مضمّن",
+      "أولوية في التكفل داخل الوكالات",
+      "30 يوم اتصال مجاني",
+      "جهاز ONT والتركيب مجانيان للاشتراك ≥ 3 أشهر",
+      "الشهر 13 مجاني عند الدفع السنوي",
+      "الرفع = 30% من التدفق",
+      "إمكانية الترقية للزبائن الحاليين من ADSL/VDSL",
+      "التزام 12 شهراً للزبائن الجدد",
+      "خيار VoIP للخطوط بدون إنترنت"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["professionnel", "entreprise"],
+    "technologie": ["fibre", "adsl", "vdsl", "voip"],
+    "engagement_required": true,
+    "eligibility_test": []
+  },
+  "sources": {
+    "fr": "ARGUME~2.DOC",
+    "ar": "Argumentaire idoom Medium business et moderni v 2.0 AR(1).docx"
+  }
+},
+{
+  "id": "moohtarif_2025_v3",
+  "name": {
+    "fr": "Nouvelle Offre MOOHTARIF - Version 3",
+    "ar": "العرض الجديد محترف - Version 3"
+  },
+  "desc": {
+    "fr": "Offre internet professionnelle pour très petites entreprises (TPE) et professions libérales avec amélioration des débits et révision tarifaire. Inclut avantages commerciaux, équipements réseau et solutions logicielles à tarifs préférentiels.",
+    "ar": "عرض إنترنت مهني للمؤسسات الصغيرة جداً والمهن الحرة مع تحسين التدفقات ومراجعة الأسعار. يتضمن مزايا تجارية، معدات شبكة وحلول برمجية بأسعار تفضيلية."
+  },
+  "category": "internet_professionnel",
+  "status": "active",
+  "target": ["tpe", "professions_liberales", "artisans", "commercants", "associations", "startups", "auto_entrepreneurs", "ansej_cnac_angem"],
+  "pricing": [
+    {
+      "type": "IDOOM_ADSL_VDSL_MOOHTARIF",
+      "plans": [
+        {
+          "debit": "15 Mbps",
+          "ancien_tarif": "2 500 DA/Mois",
+          "nouveau_tarif": "2 500 DA/Mois"
+        },
+        {
+          "debit": "20 Mbps",
+          "ancien_tarif": "2 700 DA/Mois",
+          "nouveau_tarif": "2 650 DA/Mois"
+        },
+        {
+          "debit": "50 Mbps",
+          "ancien_tarif": "2 900 DA/Mois",
+          "nouveau_tarif": "2 850 DA/Mois"
+        },
+        {
+          "debit": "100 Mbps",
+          "ancien_tarif": "3 100 DA/Mois",
+          "nouveau_tarif": "3 050 DA/Mois"
+        }
+      ]
+    },
+    {
+      "type": "IDOOM_FIBRE_MOOHTARIF",
+      "plans": [
+        {
+          "ancien_palier": "15 Mbps",
+          "nouveau_palier": "15 Mbps",
+          "tarif": "2 500 DA/Mois"
+        },
+        {
+          "ancien_palier": "20 Mbps",
+          "nouveau_palier": "30 Mbps",
+          "tarif": "2 700 DA/Mois"
+        },
+        {
+          "ancien_palier": "50 Mbps",
+          "nouveau_palier": "60 Mbps",
+          "tarif": "2 900 DA/Mois"
+        },
+        {
+          "ancien_palier": "100 Mbps",
+          "nouveau_palier": "120 Mbps",
+          "tarif": "3 100 DA/Mois"
+        },
+        {
+          "ancien_palier": "200 Mbps",
+          "nouveau_palier": "240 Mbps",
+          "tarif": "3 300 DA/Mois"
+        },
+        {
+          "ancien_palier": "300 Mbps",
+          "nouveau_palier": "300 Mbps",
+          "tarif": "3 500 DA/Mois"
+        },
+        {
+          "ancien_palier": "500 Mbps",
+          "nouveau_palier": "500 Mbps",
+          "tarif": "4 500 DA/Mois"
+        },
+        {
+          "ancien_palier": "1 Gbps",
+          "nouveau_palier": "1.2 Gbps",
+          "tarif": "5 200 DA/Mois"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Appels illimités vers réseau Algérie Télécom",
+      "Adresse IP fixe à 500 DA/mois",
+      "Upload = 30% du download (pour Fibre ≥30 Mbps)",
+      "ONT WiFi 6 requis pour 1.2 Gbps",
+      "Modernisation automatique pour clients existants",
+      "Équipement Tenda à tarif préférentiel",
+      "Formation cybersécurité Shirudo (serious game)",
+      "Logiciel de facturation Fatoura",
+      "Avantages paiement électronique: ONT et installation gratuits",
+      "Mise à jour automatique des débits Fibre"
+    ],
+    "ar": [
+      "مكالمات غير محدودة نحو شبكة اتصالات الجزائر",
+      "عنوان IP ثابت مقابل 500 دج/شهر",
+      "الرفع = 30% من التنزيل (للفايبر ≥30 ميغابت/ثانية)",
+      "جهاز ONT WiFi 6 مطلوب لـ 1.2 جيجابت/ثانية",
+      "ترقية تلقائية للزبائن الحاليين",
+      "معدات Tenda بأسعار تفضيلية",
+      "تكوين في الأمن السيبراني Shirudo (لعبة تعليمية)",
+      "برنامج الفاتورة Fatoura",
+      "مزايا الدفع الإلكتروني: جهاز ONT وتركيب مجاني",
+      "تحديث تلقائي لتدفقات الفايبر"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["professionnel", "entreprise"],
+    "technologie": ["fibre", "adsl", "vdsl"],
+    "engagement_required": true,
+    "eligibility_test": ["vdsl_50", "vdsl_100", "fibre_1.2gbps"]
+  },
+  "sources": {
+    "fr": "Argumentaire MOOHTARIF FR.docx",
+    "ar": "Argumentaire MOOHTARIF Version ARAB.docx"
+  }
+},
+{
+  "id": "moohtarif_modernisation_2025",
+  "name": {
+    "fr": "Nouvelle Offre Modernisation Clients MOOHTARIF et MOOHTARIF LOCATAIRE",
+    "ar": "العرض الجديد لتحديث الزبائن MOOHTARIF و MOOHTARIF للمستأجرين"
+  },
+  "desc": {
+    "fr": "Offre de modernisation pour clients MOOHTARIF et MOOHTARIF Locataire existants bénéficiant d'ADSL/VDSL vers la technologie FTTH, avec upselling vers un débit minimum de 30 Mbps.",
+    "ar": "عرض تحديث لزبائن محترف ومحترف إيجاري الحاليين المستفيدين من ADSL/VDSL نحو تقنية FTTH، مع ترقية نحو تدفق أدنى بـ 30 ميغابت/ثانية."
+  },
+  "category": "internet_professionnel",
+  "status": "active",
+  "target": ["clients_moohtarif_existants", "clients_moohtarif_locataire"],
+  "pricing": [
+    {
+      "type": "MODERNISATION_MOOHTARIF_ADSL_VDSL_TO_FIBRE",
+      "plans": [
+        {
+          "debit": "15 Mbps",
+          "options": [
+            {
+              "option": "Paiement initial",
+              "tarif": "20 200 DA",
+              "details": "Modem ONT: 14 200 DA + Installation: 6 000 DA"
+            },
+            {
+              "option": "Paiement mensuel",
+              "tarif": "2 500 DA/mois (minimum 3 mois)",
+              "details": "Modem optique + installation gratuite après paiement"
+            }
+          ],
+          "conditions": "Internet actif à la date de basculement, conversion du solde des jours restants, 0 DA de créances téléphoniques"
+        },
+        {
+          "debit": "30 Mbps à 1.2 Gbps",
+          "tarif": "0 DA",
+          "avantages": "Modem optique + installation gratuite",
+          "conditions": "Internet actif à la date de basculement, conversion du solde des jours restants, 0 DA de créances téléphoniques, débit 1.2 Gbps sous éligibilité"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Modernisation ADSL/VDSL vers Fibre FTTH",
+      "Modem optique + installation gratuite pour débits ≥ 30 Mbps",
+      "Conversion du solde des jours restants selon nouveau débit",
+      "Débit minimum recommandé: 30 Mbps",
+      "Option 15 Mbps avec conditions spécifiques",
+      "Débit 1.2 Gbps sous éligibilité technique",
+      "Applicable aux clients MOOHTARIF Locataire",
+      "Annule et remplace l'offre de modernisation précédente"
+    ],
+    "ar": [
+      "ترقية من ADSL/VDSL إلى الفايبر FTTH",
+      "مودم بصري + تركيب مجاني للتدفقات ≥ 30 ميغابت/ثانية",
+      "تحويل الرصيد المتبقي حسب التدفق الجديد",
+      "الحد الأدنى الموصى به: 30 ميغابت/ثانية",
+      "خيار 15 ميغابت/ثانية بشروط خاصة",
+      "تدفق 1.2 جيجابت/ثانية حسب الأهلية التقنية",
+      "ينطبق على زبائن محترف إيجاري",
+      "يلغي ويعوض عرض التحديث السابق"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["professionnel", "entreprise"],
+    "technologie": ["fibre", "adsl", "vdsl"],
+    "engagement_required": true,
+    "eligibility_test": ["fibre_1.2gbps"]
+  },
+  "sources": {
+    "fr": "OFFREM~2.DOC",
+    "ar": "OFFREM~1.DOC"
+  }
+},
+  {
+  "id": "ecoles_primaires_modernisation_2024",
+  "name": {
+    "fr": "Nouvelle Offre Modernisation Ecoles Primaires Publiques",
+    "ar": "العرض الجديد لتحديث الانترنت المدارس الابتدائية العمومية نحو idoom fibre"
+  },
+  "desc": {
+    "fr": "Offre de modernisation dédiée aux écoles primaires publiques pour leur permettre de bénéficier du réseau IDOOM FIBRE, avec modem optique et installation gratuite.",
+    "ar": "عرض تحديث مخصص للمدارس الابتدائية العمومية لتمكينها من الاستفادة من شبكة IDOOM FIBRE، مع مودم بصري وتركيب مجاني."
+  },
+  "category": "internet_institutionnel",
+  "status": "active",
+  "target": ["ecoles_primaires_publiques"],
+  "pricing": [
+    {
+      "type": "MODERNISATION_ECOLES_PRIMAIRES",
+      "plans": [
+        {
+          "debit": "300 Mbps",
+          "tarif": "0 DA",
+          "avantages": "Modem optique + installation gratuite",
+          "conditions": "0 DA de créances téléphoniques, balance internet positive, transfert de la balance internet des jours restants"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Modem optique offert",
+      "Installation gratuite",
+      "Débit fibre 300 Mbps",
+      "Transfert du solde internet des jours restants",
+      "Offre exclusive pour écoles primaires publiques"
+    ],
+    "ar": [
+      "مودم بصري مجاني",
+      "تركيب مجاني",
+      "تدفق فايبر 300 ميغابت/ثانية",
+      "تحويل رصيد الإنترنت للأيام المتبقية",
+      "عرض حصري للمدارس الابتدائية العمومية"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["institutionnel", "education"],
+    "technologie": ["fibre"],
+    "engagement_required": false,
+    "eligibility_test": []
+  },
+  "sources": {
+    "fr": "Offre Modernisation Ecoles Primaires FR.docx",
+    "ar": "Offre Modernisation Ecoles Primaires AR.docx"
+  }
+},
+{
+  "id": "locataire_residentiel_2025_v4",
+  "name": {
+    "fr": "Nouvelle offre résidentielle LOCATAIRE Idoom fibre, ADSL et VDSL",
+    "ar": "العرض الجديد للمستأجرين الخواص لخدمات Idoom Fibre و ADSL و VDSL"
+  },
+  "desc": {
+    "fr": "Offre destinée aux clients résidentiels sans justificatif d'adresse, incluant des nouveaux paliers de débit pour ADSL/VDSL et Fibre avec modem optique, installation et 1 mois de connexion offerts pour la Fibre.",
+    "ar": "عرض موجه للزبائن الخواص الذين لا يملكون وثيقة إثبات السكن، يتضمن سرعات جديدة لـ ADSL/VDSL والفايبر مع مودم بصري، تركيب وشهر إنترنت مجاني للفايبر."
+  },
+  "category": "internet_residentiel",
+  "status": "active",
+  "target": ["clients_residentiels", "locataires_sans_justificatif_adresse"],
+  "pricing": [
+    {
+      "type": "IDOOM_ADSL_VDSL_LOCATAIRE",
+      "plans": [
+        {
+          "debit": "10 Mbps",
+          "ancien_tarif": "1 900 DA/Mois",
+          "nouveau_tarif": "1 900 DA/Mois"
+        },
+        {
+          "debit": "15 Mbps",
+          "ancien_tarif": "2 300 DA/Mois",
+          "nouveau_tarif": "2 300 DA/Mois"
+        },
+        {
+          "debit": "20 Mbps",
+          "ancien_tarif": "2 500 DA/Mois",
+          "nouveau_tarif": "2 450 DA/Mois"
+        },
+        {
+          "debit": "50 Mbps",
+          "ancien_tarif": "2 700 DA/Mois",
+          "nouveau_tarif": "2 650 DA/Mois"
+        },
+        {
+          "debit": "100 Mbps",
+          "ancien_tarif": "2 900 DA/Mois",
+          "nouveau_tarif": "2 850 DA/Mois"
+        }
+      ]
+    },
+    {
+      "type": "IDOOM_FIBRE_LOCATAIRE",
+      "plans": [
+        {
+          "ancien_palier": "30 Mbps",
+          "nouveau_palier": "60 Mbps",
+          "tarif": "2 500 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + installation"
+        },
+        {
+          "ancien_palier": "60 Mbps",
+          "nouveau_palier": "120 Mbps",
+          "tarif": "2 700 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + installation"
+        },
+        {
+          "ancien_palier": "120 Mbps",
+          "nouveau_palier": "240 Mbps",
+          "tarif": "2 900 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + installation"
+        },
+        {
+          "ancien_palier": "240 Mbps",
+          "nouveau_palier": "480 Mbps",
+          "tarif": "3 100 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + installation"
+        },
+        {
+          "ancien_palier": "300 Mbps",
+          "nouveau_palier": "600 Mbps",
+          "tarif": "3 300 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + installation"
+        },
+        {
+          "ancien_palier": "500 Mbps",
+          "nouveau_palier": "1 Gbps",
+          "tarif": "3 900 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + installation"
+        },
+        {
+          "ancien_palier": "1.2 Gbps",
+          "nouveau_palier": "1.5 Gbps",
+          "tarif": "4 500 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + installation"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Modem optique offert pour Fibre",
+      "1 mois de connexion offert pour Fibre",
+      "Installation incluse pour Fibre",
+      "Upload = 30% du débit choisi (Fibre)",
+      "Idoom Fixe 250 DA/Mois inclus",
+      "Restriction internationale: 50 DA/Mois",
+      "Restriction vers mobiles incluse",
+      "Migration automatique pour clients existants Fibre",
+      "Engagement 12 mois pour nouveaux abonnés",
+      "Pas de justificatif d'adresse requis"
+    ],
+    "ar": [
+      "مودم بصري مجاني للفايبر",
+      "شهر إنترنت مجاني للفايبر",
+      "التركيب مضمن للفايبر",
+      "الرفع = 30% من التدفق المختار (فايبر)",
+      "اشتراك Idoom Fixe 250 دج/شهر مضمن",
+      "تقييد المكالمات الدولية: 50 دج/شهر",
+      "تقييد المكالمات نحو النقال مضمن",
+      "تحويل تلقائي للزبائن الحاليين بالفايبر",
+      "التزام 12 شهراً للمشتركين الجدد",
+      "لا حاجة لوثيقة إثبات العنوان"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel", "locataire"],
+    "technologie": ["fibre", "adsl", "vdsl"],
+    "engagement_required": true,
+    "engagement_duration": "12 mois",
+    "eligibility_test": ["vdsl_50", "vdsl_100", "fibre_1gbps", "fibre_1.5gbps"]
+  },
+  "sources": {
+    "fr": "ARGUME~1.DOC",
+    "ar": "Mise à jour offre Locataire idoom fibre ADSL et VDSL V4 AR (1).docx"
+  }
+},
+{
+  "id": "locataire_residentiel_2025",
+  "name": {
+    "fr": "Nouvelle offre résidentielle LOCATAIRE Idoom fibre, ADSL et VDSL",
+    "ar": "العرض الجديد للخواص المستأجرين لخدمات Idoom Fibre و ADSL و VDSL"
+  },
+  "desc": {
+    "fr": "Offre résidentielle destinée aux locataires sans justificatif d'adresse, avec nouveaux paliers de débit doublés pour la Fibre et ajustements tarifaires pour ADSL/VDSL. Inclut modem optique, installation et 1 mois de connexion offerts pour la Fibre.",
+    "ar": "عرض خاص للخواص المستأجرين الذين لا يملكون وثيقة تبرير العنوان، مع مضاعفة تدفقات الفايبر وتعديلات سعرية لـ ADSL/VDSL. يتضمن مودم ضوئي، تركيب وشهر إنترنت مجاني للفايبر."
+  },
+  "category": "internet_residentiel",
+  "status": "active",
+  "target": ["clients_residentiels", "locataires_sans_justificatif_adresse"],
+  "pricing": [
+    {
+      "type": "IDOOM_ADSL_VDSL_LOCATAIRE",
+      "plans": [
+        {
+          "debit": "10 Mbps",
+          "ancien_tarif": "1 900 DA/Mois",
+          "nouveau_tarif": "1 900 DA/Mois"
+        },
+        {
+          "debit": "15 Mbps",
+          "ancien_tarif": "2 300 DA/Mois",
+          "nouveau_tarif": "2 300 DA/Mois"
+        },
+        {
+          "debit": "20 Mbps",
+          "ancien_tarif": "2 500 DA/Mois",
+          "nouveau_tarif": "2 450 DA/Mois"
+        },
+        {
+          "debit": "50 Mbps",
+          "ancien_tarif": "2 700 DA/Mois",
+          "nouveau_tarif": "2 650 DA/Mois"
+        },
+        {
+          "debit": "100 Mbps",
+          "ancien_tarif": "2 900 DA/Mois",
+          "nouveau_tarif": "2 850 DA/Mois"
+        }
+      ]
+    },
+    {
+      "type": "IDOOM_FIBRE_LOCATAIRE",
+      "plans": [
+        {
+          "ancien_palier": "30 Mbps",
+          "nouveau_palier": "60 Mbps",
+          "tarif": "2 500 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "60 Mbps",
+          "nouveau_palier": "120 Mbps",
+          "tarif": "2 700 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "120 Mbps",
+          "nouveau_palier": "240 Mbps",
+          "tarif": "2 900 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "240 Mbps",
+          "nouveau_palier": "480 Mbps",
+          "tarif": "3 100 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "300 Mbps",
+          "nouveau_palier": "600 Mbps",
+          "tarif": "3 300 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "500 Mbps",
+          "nouveau_palier": "1 Gbps",
+          "tarif": "3 900 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "1.2 Gbps",
+          "nouveau_palier": "1.5 Gbps",
+          "tarif": "4 500 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Pas de justificatif d'adresse requis",
+      "Modem optique offert pour Fibre",
+      "1 mois de connexion offert pour Fibre",
+      "Frais d'installation inclus pour Fibre",
+      "Upload = 30% du débit choisi (Fibre)",
+      "Idoom Fixe 250 DA/Mois inclus",
+      "Restriction internationale: 50 DA/Mois",
+      "Restriction vers mobiles incluse",
+      "Migration automatique pour clients Fibre existants",
+      "Engagement 12 mois pour nouveaux abonnés"
+    ],
+    "ar": [
+      "لا حاجة لوثيقة تبرير العنوان",
+      "مودم ضوئي مجاني للفايبر",
+      "شهر إنترنت مجاني للفايبر",
+      "مصاريف التركيب مضمنة للفايبر",
+      "الرفع = 30% من التدفق المختار (فايبر)",
+      "اشتراك Idoom Fixe 250 دج/شهر مضمن",
+      "تقييد المكالمات الدولية: 50 دج/شهر",
+      "تقييد المكالمات نحو الهواتف النقال",
+      "تحويل تلقائي للمشتركين الحاليين بالفايبر",
+      "التزام 12 شهرًا للمشتركين الجدد"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel", "locataire"],
+    "technologie": ["fibre", "adsl", "vdsl"],
+    "engagement_required": true,
+    "engagement_duration": "12 mois",
+    "eligibility_test": ["vdsl_50", "vdsl_100", "fibre_1gbps", "fibre_1.5gbps"]
+  },
+  "sources": {
+    "fr": "ARGUME~1.DOC",
+    "ar": "MISEJO~1(1).DOC"
+  }
+},
+{
+  "id": "idoom_fibre_gamers_2025_v5",
+  "name": {
+    "fr": "Nouvelle Offre Idoom Fibre Gamers - Version 5.0",
+    "ar": "العرض الجديد Idoom Fibre Gamers - Version 5.0"
+  },
+  "desc": {
+    "fr": "Offre spéciale pour les gamers avec débits élevés jusqu'à 1.5 Gbps, upload amélioré à 60% du débit, et performances optimisées pour le jeu en ligne, streaming et cloud gaming.",
+    "ar": "عرض خاص للاعبين مع تدفقات عالية تصل إلى 1.5 جيجابت/ثانية، رفع محسّن بنسبة 60% من التدفق، وأداء ممتاز للألعاب عبر الإنترنت، البث المباشر والألعاب السحابية."
+  },
+  "category": "internet_residentiel",
+  "status": "active",
+  "target": ["clients_residentiels", "gamers", "nouveaux_clients"],
+  "pricing": [
+    {
+      "type": "IDOOM_FIBRE_GAMERS",
+      "plans": [
+        {
+          "ancien_palier": "30 Mbps",
+          "nouveau_palier": "60 Mbps",
+          "tarif": "2 500 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "60 Mbps",
+          "nouveau_palier": "120 Mbps",
+          "tarif": "2 800 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "120 Mbps",
+          "nouveau_palier": "240 Mbps",
+          "tarif": "3 000 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "240 Mbps",
+          "nouveau_palier": "480 Mbps",
+          "tarif": "3 400 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "300 Mbps",
+          "nouveau_palier": "600 Mbps",
+          "tarif": "4 000 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "500 Mbps",
+          "nouveau_palier": "1 Gbps",
+          "tarif": "4 600 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        },
+        {
+          "ancien_palier": "1.2 Gbps",
+          "nouveau_palier": "1.5 Gbps",
+          "tarif": "5 200 DA/Mois",
+          "avantages": "Modem optique + 1 mois de connexion + frais d'installation"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Upload = 60% du débit choisi (contre 30% dans les offres standards)",
+      "Upload pouvant atteindre 900 Mbps (pour 1.5 Gbps)",
+      "Ping optimisé pour le jeu en ligne",
+      "Modem optique offert",
+      "1 mois de connexion offert",
+      "Installation incluse",
+      "Migration automatique pour clients existants",
+      "Engagement 12 mois pour nouveaux abonnés",
+      "Conçu pour gaming, streaming et cloud gaming",
+      "Cross-selling possible: accessoires gaming en agence"
+    ],
+    "ar": [
+      "الرفع = 60% من التدفق المختار (مقابل 30% في العروض العادية)",
+      "الرفع قد يصل إلى 900 ميغابت/ثانية (لـ 1.5 جيجابت/ثانية)",
+      "Ping محسّن للألعاب عبر الإنترنت",
+      "مودم بصري مجاني",
+      "شهر إنترنت مجاني",
+      "التركيب مضمن",
+      "تحويل تلقائي للزبائن الحاليين",
+      "التزام 12 شهراً للمشتركين الجدد",
+      "مصمّم للألعاب، البث المباشر والألعاب السحابية",
+      "بيع متقاطع: معدات ألعاب متوفرة في الوكالات"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel", "gamer"],
+    "technologie": ["fibre"],
+    "engagement_required": true,
+    "engagement_duration": "12 mois",
+    "eligibility_test": ["fibre_1gbps", "fibre_1.5gbps"]
+  },
+  "sources": {
+    "fr": "Argumentaire Offre Gamers V5 2025 FR.docx",
+    "ar": "Argumentaire Offre Gamers V5 2025 AR.docx"
+  }
+},
+{
+  "id": "idoom_fibre_gamers_locataire_2025",
+  "name": {
+    "fr": "Nouvelle Offre Idoom Fibre Gamers Locataire",
+    "ar": "العرض الجديد Idoom Fibre Gamers للمستأجرين"
+  },
+  "desc": {
+    "fr": "Offre prépayée destinée aux clients résidentiels sans justificatif d'adresse, pour les services Idoom fixe et Internet (Fibre). Offre adaptée aux joueurs en ligne (streaming, jeux vidéo), avec augmentation des débits jusqu'à 1.5 Gbps, restrictions sur les appels internationaux et mobiles, et engagement de 12 mois.",
+    "ar": "عرض مسبق الدفع موجه للزبائن الخواص الذين لا يتوفرون على مستند إثبات عنوان، لخدمات الخط الثابت والإنترنت (الفايبر). العرض مناسب للاعبين عبر الإنترنت (بث مباشر، ألعاب فيديو)، مع زيادة في السرعة حتى 1.5 جيجابت/ثانية، قيود على المكالمات الدولية والهواتف النقالة، والتزام لمدة 12 شهراً."
+  },
+  "category": "internet_residentiel",
+  "status": "active",
+  "target": ["clients_residentiels", "nouveaux_clients", "sans_justificatif_adresse", "gamers"],
+  "pricing": [
+    {
+      "type": "IDOOM_FIBRE_GAMERS_LOCATAIRE",
+      "plans": [
+        {"ancien_palier": "30 Mbps", "nouveau_palier": "60 Mbps", "tarif": "2 800 DA/Mois"},
+        {"ancien_palier": "60 Mbps", "nouveau_palier": "120 Mbps", "tarif": "3 100 DA/Mois"},
+        {"ancien_palier": "120 Mbps", "nouveau_palier": "240 Mbps", "tarif": "3 300 DA/Mois"},
+        {"ancien_palier": "240 Mbps", "nouveau_palier": "480 Mbps", "tarif": "3 700 DA/Mois"},
+        {"ancien_palier": "300 Mbps", "nouveau_palier": "600 Mbps", "tarif": "4 300 DA/Mois"},
+        {"ancien_palier": "500 Mbps", "nouveau_palier": "1 Gbps", "tarif": "4 900 DA/Mois"},
+        {"ancien_palier": "1.2 Gbps", "nouveau_palier": "1.5 Gbps", "tarif": "5 500 DA/Mois"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Forfaits prépayés pour clients sans justificatif d'adresse",
+      "Débits fibre augmentés (ex: 30→60 Mbps, 1.2→1.5 Gbps, etc.)",
+      "Modem optique offert + 1 mois de connexion + frais d'installation inclus",
+      "Upload = 60% du débit téléchargement",
+      "Engagement de 12 mois pour nouveaux abonnés",
+      "Accès Idoom fixe inclus (250 DA/mois)",
+      "Appels vers lignes fixes Algérie Télécom (PSTN, VOIP, VOLTE) gratuits",
+      "Restrictions sur appels internationaux et mobiles (coût inclus : 50 DA/mois)",
+      "Éligibilité technique requise pour 1 Gbps et 1.5 Gbps",
+      "Offre remplace et annule l'offre précédente"
+    ],
+    "ar": [
+      "باقات مسبقة الدخل للزبائن بدون مستند إثبات عنوان",
+      "سرعات فايبر معززة (مثال: 30→60 ميغابت/ثانية، 1.2→1.5 جيجابت/ثانية)",
+      "مودم بصري مجاني + شهر اتصال + رسوم تركيب",
+      "الرفع Upload = 60% من سرعة التحميل",
+      "التزام لمدة 12 شهراً للمشتركين الجدد",
+      "اشتراك في الخط الثابت Idoom مضمن (250 د.ج/شهر)",
+      "مكالمات مجانية نحو الخطوط الثابتة للجزائرية للاتصالات (PSTN, VOIP, VOLTE)",
+      "قيود على المكالمات الدولية والهواتف النقالة (تكلفة مضمنة: 50 د.ج/شهر)",
+      "أهلية تقنية مطلوبة لسرعة 1 جيجابت/ثانية و 1.5 جيجابت/ثانية",
+      "هذا العرض يحل محل العرض السابق ويلغيه"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["fibre"],
+    "engagement_required": true,
+    "eligibility_test": ["1_gbps", "1.5_gbps"],
+    "payment_type": ["prepaid"]
+  },
+
+  "sources": {
+    "fr": "Argumentaire Offre Gamers Locataire V5 2025 en Français.docx",
+    "ar": "Argumentaire Offre Gamers Locataire V5 2025 en Arabe.docx"
+  }
+},
+{
+  "id": "idoom_4g_lte_sans_engagement_2025",
+  "name": {
+    "fr": "Nouvelle Offre IDOOM 4G LTE Sans engagement",
+    "ar": "العرض الجديد IDOOM 4G LTE بدون التزام"
+  },
+  "desc": {
+    "fr": "Offre 4G LTE sans engagement Data et Voix, flexible et destinée aux nouveaux clients résidentiels. Remplace toutes les anciennes offres IDOOM 4G LTE. Comprend un volume de 1 To avec débit illimité, validité 90 jours, et appels illimités vers le réseau Algérie Télécom.",
+    "ar": "عرض 4G LTE بدون التزام للبيانات والصوت، مرن وموجه للزبائن الخواص الجدد. يلغي جميع العروض القديمة لـ IDOOM 4G LTE. يتضمن حجم 1 تيرابايت مع تدفق غير محدود، صلاحية 90 يوماً، ومكالمات غير محدودة نحو شبكة اتصالات الجزائر."
+  },
+  "category": "mobile_internet_residentiel",
+  "status": "active",
+  "target": ["clients_residentiels", "nouveaux_clients", "etudiants_cite_universitaire"],
+  "pricing": [
+    {
+      "type": "IDOOM_4G_LTE_DATA_VOIX_SANS_ENGAGEMENT",
+      "plans": [
+        {
+          "nom": "Forfait Data & Voix",
+          "tarif": "7 500 DA",
+          "validite": "90 jours",
+          "avantages": [
+            "Modem offert",
+            "1 To avec débit illimité",
+            "Appels illimités vers réseau AT"
+          ]
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Offre sans engagement",
+      "Modem 4G LTE offert",
+      "Volume de 1 To avec débit illimité",
+      "Validité de 90 jours",
+      "Appels illimités vers le réseau Algérie Télécom (fixe et mobile AT)",
+      "Recharge possible avant expiration et cumulable",
+      "Offre flexible adaptée aux étudiants en cité universitaire",
+      "Remplace toutes les anciennes offres IDOOM 4G LTE"
+    ],
+    "ar": [
+      "عرض بدون التزام",
+      "مودم 4G LTE مجاني",
+      "حجم 1 تيرابايت مع تدفق غير محدود",
+      "صلاحية 90 يوماً",
+      "مكالمات غير محدودة نحو شبكة اتصالات الجزائر (ثابت ومحمول)",
+      "إعادة تعبئة ممكنة قبل انتهاء الصلاحية وقابلة للتجميع",
+      "عرض مرن مناسب للطلبة المقيمين في المدينة الجامعية",
+      "يلغي جميع العروض القديمة لـ IDOOM 4G LTE"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["4g_lte"],
+    "engagement_required": false,
+    "payment_type": ["prepaid"]
+  },
+  "sources": {
+    "fr": "nouvelle offre IDOOM 4G LTE Sans Engagement version française 2025.docx",
+    "ar": "nouvelle offre IDOOM 4G LTE Sans Engagement version Arabe 2025.docx"
+  }
+},
+{
+  "id": "timbre_fiscal_lfi_2025",
+  "name": {
+    "fr": "Droits de timbre fiscal conformément à la nouvelle loi de finances 2025",
+    "ar": "حقوق الطابع الجبائي وفق قانون المالية الجديد 2025"
+  },
+  "desc": {
+    "fr": "Taxe obligatoire applicable aux paiements en espèces pour certains services Algérie Télécom (abonnements fixe et Internet). Le montant varie selon le tarif payé conformément à la loi de finances 2025. Possibilité d'exonération via paiements électroniques.",
+    "ar": "ضريبة إلزامية تُطبق على المدفوعات النقدية لبعض خدمات اتصالات الجزائر (اشتراكات الهاتف الثابت والإنترنت). يختلف المبلغ حسب السعر المدفوع وفق قانون المالية 2025. إمكانية الإعفاء عبر الدفع الإلكتروني."
+  },
+  "category": "fiscal_obligation",
+  "status": "active",
+  "target": ["clients_residentiels", "clients_entreprise", "tous_clients"],
+  "pricing": [
+    {
+      "type": "DROITS_TIMBRE_FISCAL_2025",
+      "plans": [
+        {"montant_max": "500 DA", "taux": "5 DA fixe", "condition": "Montant ≤ 500 DA"},
+        {"montant_min": "500 DA", "montant_max": "30.000 DA", "taux": "1%", "condition": "500 DA < Montant ≤ 30.000 DA"},
+        {"montant_min": "30.000 DA", "montant_max": "100.000 DA", "taux": "1,5%", "condition": "30.000 DA < Montant ≤ 100.000 DA"},
+        {"montant_min": "100.000 DA", "taux": "2%", "condition": "Montant > 100.000 DA"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Taxe obligatoire selon Code de l'Enregistrement et du Timbre",
+      "Applicable aux paiements en espèces uniquement",
+      "Calcul progressif selon tranches de montant",
+      "Exonération possible via paiement électronique en ligne",
+      "Exonération via terminal de paiement électronique (TPE) en agence",
+      "Exonération via chèque certifié ou virement bancaire",
+      "Mention claire sur contrats et factures",
+      "Paiement en agence commerciale ou point de présence"
+    ],
+    "ar": [
+      "ضريبة إلزامية وفق قانون التسجيل والطابع",
+      "تطبق على المدفوعات النقدية فقط",
+      "حساب تصاعدي حسب شرائح المبلغ",
+      "إعفاء عبر الدفع الإلكتروني على الإنترنت",
+      "إعفاء عبر جهاز الدفع الإلكتروني (TPE) في الوكالة",
+      "إعفاء عبر شيك أو حوالة بنكية",
+      "إشارة واضحة على العقود والفواتير",
+      "الدفع في الوكالات التجارية أو نقاط الحضور"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["tous"],
+    "technologie": ["tous"],
+    "payment_method": ["especes"],
+    "exoneration_methods": ["paiement_en_ligne", "tpe", "cheque", "virement"]
+  },
+  "sources": {
+    "fr": "Argumentaire Timbre fiscal conformément à la nouvelle loi de finance 2025 version française.docx",
+    "ar": "Argumentaire Timbre fiscal conformément à la nouvelle loi de finance 2025 version arabe.docx"
+  }
+},
+{
+  "id": "offre_parrainage_my_idoom_2025",
+  "name": {
+    "fr": "Nouvelle Offre Parrainage via l'application My Idoom",
+    "ar": "عرض التوصية الجديد عبر تطبيق My Idoom"
+  },
+  "desc": {
+    "fr": "Offre de parrainage visant à acquérir de nouveaux clients et fidéliser la clientèle existante via l'application My Idoom. Encourage les clients résidentiels Idoom Fibre à recommander nos offres à leurs proches (amis, famille, collègues).",
+    "ar": "عرض توصية يهدف إلى استقطاب زبائن جدد وتعزيز وفاء الزبائن الحاليين عبر تطبيق My Idoom. يشجع الزبائن الخواص لـ Idoom Fibre على التوصية بعروضنا لأقاربهم (أصدقاء، عائلة، زملاء)."
+  },
+  "category": "parrainage_fidelisation",
+  "status": "active",
+  "target": ["clients_residentiels_idoom_fibre", "nouveaux_clients", "clients_existants"],
+  "pricing": [
+    {
+      "type": "BONUS_PARRAINAGE",
+      "plans": [
+        {
+          "role": "Parrain",
+          "avantage": "10 jours à 1.5 Gbps",
+          "condition": "Client Idoom Fibre actif avec compte My Idoom"
+        },
+        {
+          "role": "Parrainé",
+          "avantage": "1 mois à débit supérieur (par rapport au débit souscrit)",
+          "condition": "Nouveau client Idoom Fibre éligible"
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Bonus automatique après validation sur My Idoom",
+      "Parrain : 10 jours à 1.5 Gbps (sauf si déjà à 1.5 Gbps → avantage durée uniquement)",
+      "Parrainé : 1 mois à débit supérieur au débit souscrit",
+      "Nombre de parrainages illimité et cumulable",
+      "Code de parrainage personnel et confidentiel",
+      "Activation sous 7 jours après mise en service",
+      "Offre suspendue pendant les promotions",
+      "Exclusivité via application My Idoom"
+    ],
+    "ar": [
+      "مكافأة تلقائية بعد التأكيد على My Idoom",
+      "الموصي: 10 أيام بسرعة 1.5 جيجابت/ثانية (ما عدا إذا كان سرعته أصلًا 1.5 جيجابت/ثانية → يستفيد من المدة فقط)",
+      "الموصى له: شهر واحد بسرعة أعلى من السرعة المختارة",
+      "عدد التوصيات غير محدود وقابل للتجميع",
+      "رمز التوصية شخصي وسري",
+      "التفعيل خلال 7 أيام من بدء الخدمة",
+      "تعليق العرض خلال الفترات الترويجية",
+      "حصري عبر تطبيق My Idoom"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["fibre"],
+    "eligible_clients": ["idoom_fibre_residentiel", "idoom_fibre_locataire", "idoom_fibre_gamers", "idoom_fibre_gamers_locataire"],
+    "non_eligible_clients": ["clients_conventionnes"]
+  },
+  "sources": {
+    "fr": "Argumentaire Nouvelle Offre Parrainage 2025 - version française -.docx",
+    "ar": "Argumentaire Nouvelle Offre Parrainage 2025 - version arabe -.docx"
+  }
+},
+{
+  "id": "idoom_4g_lte_sans_engagement_2025",
+  "name": {
+    "fr": "Nouvelle Offre IDOOM 4G LTE Sans engagement",
+    "ar": "العرض الجديد IDOOM 4G LTE بدون التزام"
+  },
+  "desc": {
+    "fr": "Offre 4G LTE sans engagement Data et Voix, flexible et destinée aux nouveaux clients résidentiels. Remplace toutes les anciennes offres IDOOM 4G LTE. Comprend un volume de 1 To avec débit illimité, validité 90 jours, et appels illimités vers le réseau Algérie Télécom.",
+    "ar": "عرض 4G LTE بدون التزام للبيانات والصوت، مرن وموجه للزبائن الخواص الجدد. يلغي جميع العروض القديمة لـ IDOOM 4G LTE. يتضمن حجم 1 تيرابايت مع تدفق غير محدود، صلاحية 90 يوماً، ومكالمات غير محدودة نحو شبكة اتصالات الجزائر."
+  },
+  "category": "mobile_internet_residentiel",
+  "status": "active",
+  "target": ["clients_residentiels", "nouveaux_clients", "etudiants_cite_universitaire"],
+  "pricing": [
+    {
+      "type": "IDOOM_4G_LTE_DATA_VOIX_SANS_ENGAGEMENT",
+      "plans": [
+        {
+          "nom": "Forfait Data & Voix",
+          "tarif": "7 500 DA",
+          "validite": "90 jours",
+          "avantages": ["Modem offert", "1 To avec débit illimité", "Appels illimités vers réseau AT"]
+        }
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Offre sans engagement",
+      "Modem 4G LTE offert",
+      "Volume de 1 To avec débit illimité",
+      "Validité de 90 jours",
+      "Appels illimités vers le réseau Algérie Télécom (fixe et mobile AT)",
+      "Recharge possible avant expiration et cumulable",
+      "Offre flexible adaptée aux étudiants en cité universitaire",
+      "Remplace toutes les anciennes offres IDOOM 4G LTE"
+    ],
+    "ar": [
+      "عرض بدون التزام",
+      "مودم 4G LTE مجاني",
+      "حجم 1 تيرابايت مع تدفق غير محدود",
+      "صلاحية 90 يوماً",
+      "مكالمات غير محدودة نحو شبكة اتصالات الجزائر (ثابت ومحمول)",
+      "إعادة تعبئة ممكنة قبل انتهاء الصلاحية وقابلة للتجميع",
+      "عرض مرن مناسب للطلبة المقيمين في المدينة الجامعية",
+      "يلغي جميع العروض القديمة لـ IDOOM 4G LTE"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["4g_lte"],
+    "engagement_required": false,
+    "eligible_for_students": true
+  },
+  "sources": {
+    "fr": "nouvelle offre IDOOM 4G LTE Sans Engagement version française 2025.docx",
+    "ar": "nouvelle offre IDOOM 4G LTE Sans Engagement version Arabe 2025.docx"
+  }
+},
+{
+  "id": "avantages_paiement_electronique_2024",
+  "name": {
+    "fr": "Nouveaux Avantages Liés au Paiement Électronique Idoom ADSL, VDSL et Fibre",
+    "ar": "مزايا جديدة مرتبطة بالدفع الإلكتروني لـ Idoom ADSL و VDSL و Fibre"
+  },
+  "desc": {
+    "fr": "Offre promotionnelle encourageant le paiement électronique pour les abonnements internet filaires (ADSL, VDSL, Fibre). Les clients bénéficient de jours de connexion gratuits en fonction de la durée rechargée, avec des bonus cumulables. Cette initiative vise à digitaliser le parcours client et améliorer l'expérience utilisateur.",
+    "ar": "عرض ترويجي يشجع على الدفع الإلكتروني لاشتراكات الإنترنت السلكي (ADSL، VDSL، فايبر). يحصل الزبائن على أيام اتصال مجانية حسب مدة التعبئة، مع مكافآت قابلة للتجميع. تهدف هذه المبادرة إلى رقمنة مسار الزبون وتحسين تجربة المستخدم."
+  },
+  "category": "promotion_paiement_electronique",
+  "status": "active",
+  "target": ["clients_residentiels", "clients_idoom_adsl", "clients_idoom_vdsl", "clients_idoom_fibre", "clients_locataires", "clients_conventionnes"],
+  "pricing": [
+    {
+      "type": "BONUS_PAIEMENT_ELECTRONIQUE",
+      "plans": [
+        {"duree_rechargee": "1 mois", "bonus": "3 jours"},
+        {"duree_rechargee": "3 mois", "bonus": "12 jours"},
+        {"duree_rechargee": "6 mois", "bonus": "24 jours"},
+        {"duree_rechargee": "12 mois", "bonus": "48 jours"}
+      ]
+    }
+  ],
+  "features": {
+    "fr": [
+      "Bonus de jours de connexion gratuits selon la durée rechargée",
+      "Cumulable entre plusieurs opérations de rechargement",
+      "Nombre d'opérations illimité",
+      "Applicable aux paiements électroniques uniquement",
+      "Remplace les avantages précédents pour internet filaire",
+      "Bonus pour factures téléphoniques et Idoom 4G LTE inchangés",
+      "Paiement minimum équivalent au montant de l'abonnement",
+      "Bonus appliqué automatiquement"
+    ],
+    "ar": [
+      "مكافأة أيام اتصال مجانية حسب مدة التعبئة",
+      "قابل للتجميع بين عمليات تعبئة متعددة",
+      "عدد العمليات غير محدود",
+      "ينطبق على الدفعات الإلكترونية فقط",
+      "يحل محل المزايا السابقة للإنترنت السلكي",
+      "مكافآت فواتير الهاتف و Idoom 4G LTE تبقى كما هي",
+      "الدفع الأدنى يعادل قيمة الاشتراك",
+      "تطبيق المكافأة تلقائياً"
+    ]
+  },
+  "filters": {
+    "sector": "telecom",
+    "client_type": ["residentiel"],
+    "technologie": ["adsl", "vdsl", "fibre"],
+    "payment_method": ["electronique"],
+    "eligible_clients": ["locataires", "conventionnes"]
+  },
+  "sources": {
+    "fr": "Argumentaire Nouveaux Avantages Liés au Paiement Électronique -finish- version française -.docx",
+    "ar": "Argumentaire Nouveaux Avantages Liés au Paiement Électronique -finish - version arabe -.docx"
+  }
+}
+
+]

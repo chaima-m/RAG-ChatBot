@@ -1,0 +1,45 @@
+{
+    "timestamp": "2025-12-13T07:10:57.674090",
+    "equipe": "TensorGirls",
+    "reponses_detaillees": {
+        "Offre_01": {
+            "1": {
+                "reponse": "Partenaire : DAR EL OULA. Pour ajouter plus de 12 livres, l'utilisateur doit souscrire à une offre premium payante.",
+                "source_document": "Argumentaire EKOTEB Version 2 FR.docx",
+                "generation_time": 2.72
+            },
+            "2": {
+                "reponse": "مدة الضمان على المنتجات المادية (الهواتف، المودم) تحددها الشركة المصنعة أو الموزع (مثل SACOMI لـ ZTE)، وليست اتصالات الجزائر. عادة ما تكون 12 شهرًا.\n\nللمطالبة بالضمان، يجب على العميل التوجه مباشرة إلى مركز الخدمة التابع للشركة المصنعة أو الموزع (مثل SACOMI) وليس إلى وكالة اتصالات الجزائر.",
+                "source_document": "Argumentaire Produits partenaire SARL SACOMI ELECTRONICS -Smartphone ZTE- en français.docx",
+                "generation_time": 4.324
+            },
+            "3": {
+                "reponse": "**الأسعار التفضيلية لـ Idoom Internet:**\n- خصم 50% على عروض الإنترنت من 20 Mbps إلى 1.2 Gbps للموظفين العاملين (L’établissement V).\n- خصومات تتراوح بين 17.3% إلى 22.8% حسب السرعة (L’Établissement E)، مع تشجيع الانتقال لسرعات 20 Mbps فما فوق.\n\n**الأسعار التفضيلية لـ Idoom Fixe:**\n- خصومات تتراوح بين 10% إلى 30% على الخطوط الثابتة، حسب العرض والاتفاقية (L’établissement V و L’établissement O).\n\n**ملاحظة:** التفاصيل الكاملة (مثل الأسعار الدقيقة لكل سرعة) غير متوفرة في السياق المقدم. يرجى الرجوع للجداول المرفقة مع كل اتفاقية للحصول على البيانات الكاملة.",
+                "source_document": "N  اتفاقية بين اتصالات الجزائر و المؤسسة",
+                "generation_time": 7.64
+            },
+            "4": {
+                "reponse": "L'offre Gamers Locataire n'est plus disponible. Pour les joueurs, l'offre IDOOM Fibre 1.2 Gbps est recommandée au prix de 2,100 DA/mois. Aucun justificatif d'adresse n'est requis pour la souscription.",
+                "source_document": "V اتفاقية بين اتصالات الجزائر و المؤسسة",
+                "generation_time": 2.842
+            },
+            "5": {
+                "reponse": "Pour votre situation (locataire sans justificatif), l'offre **Idoom Fibre Gamers Locataire** est adaptée :\n- Débits jusqu'à 1,5 Gbps pour gaming/streaming\n- Offre prépayée sans justificatif d'adresse\n- Engagement 12 mois, appels internationaux/mobiles limités\n\nPrix et détails spécifiques à confirmer en agence ou au 3007.",
+                "source_document": "Offers_Data.json",
+                "generation_time": 3.778
+            },
+            "6": {
+                "reponse": "**Procédure: Création nouveau Pack IDOOM Fibre**\n1. Cliquer sur « VOIP Sale ».\n2. Choisir l’offre primaire.\n3. Remplir les « Informations de base » (info abonné, info souscription, adresse).\n4. Cliquer sur « Plus d’offres » et choisir les offres demandées par le client.\n5. Cliquer sur « Plus de ressources » et choisir l’ONT.\n6. Cliquer sur « synchroniser avec ONT ».\n7. Cliquer sur « Continuer ».\n8. Cliquer sur « Ajoute plus ».\n9. Cliquer sur « FTTX Sale ».\n10. Choisir l’« offre primaire » (selon le choix du client).\n11. Remplir les « Informations de base ».\n12. Dans « Offre », ne pas ajouter d'offre supplémentaire.\n13. Cliquer sur « Continuer » pour finaliser la création.\n14. Cliquer sur « Payer maintenant » et continuer.\n15. Après que l’ordre soit « complété », vérifier que l’état de l’abonné FTTH est « inactif ».",
+                "source_document": "Guide NGBSS Création nouveau Pack IDOOM Fibre (1).pdf",
+                "generation_time": 8.315
+            },
+            "7": {
+                "reponse": "**Procédure: Recharge FTTH prépayée**\n1. Cliquer sur « Offre » dans le menu principal.\n2. Sélectionner « Gestion de la validité des offres prépayées ».\n3. Cliquer sur le bouton « Nouveau ».\n4. Vérifier que l’« Offre supplémentaire » est remplie automatiquement selon l’offre primaire.\n5. Dans la liste déroulante « No de mois », sélectionner le nombre de cycles souhaité.\n6. Cliquer sur le bouton « Suivant ».\n7. Cliquer sur « Soumettre & paiement ».\n8. Procéder au paiement pour finaliser la recharge.",
+                "source_document": "Guide NGBSS Création nouveau Pack IDOOM Fibre (1).pdf",
+                "generation_time": 6.129
+            }
+        }
+    },
+    "total_processing_time": 39.664,
+    "average_time_per_question": 4.958
+}
