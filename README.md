@@ -1,6 +1,5 @@
-# TensorGirls
-Smart Front Office Assistant An intelligent assistant designed to analyze client needs and instantly suggest relevant commercial offers and partner agreements. It streamlines Front Office workflows, reduces manual effort, and improves response time and service quality.
 # Algérie Télécom - RAG Chatbot
+Smart Front Office Assistant An intelligent assistant designed to analyze client needs and instantly suggest relevant commercial offers and partner agreements. It streamlines Front Office workflows, reduces manual effort, and improves response time and service quality.
 
 ## 📌 Overview
 A Retrieval-Augmented Generation (RAG) chatbot for Algérie Télécom agents. Answers questions about offers, conventions, NGBSS procedures, and depot products in French/Arabic.
